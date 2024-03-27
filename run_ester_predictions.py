@@ -105,7 +105,7 @@ if __name__ == "__main__":
 
     desc_generator = GraphChargeShell()
 
-    smiles = Chem.MolToSmiles(Chem.MolFromSmiles(args.smiles), isomericSmiles=True) # canonicalize input smiles
+    smiles = Chem.MolToSmiles(Chem.MolFromSmiles(args.smi), isomericSmiles=True) # canonicalize input smiles
     atom_sites, pred_maa = run_preds(smiles)
 
     print('SMILES:', smiles)
