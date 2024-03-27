@@ -13,5 +13,3 @@ dependencies:
   - tqdm
   - ipython
   - lightgbm=3.1.1
-  - pip:
-    - hashlib
