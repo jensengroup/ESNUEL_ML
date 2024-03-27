@@ -4,7 +4,7 @@
 # Needs my small molecule package dependencies to work, too.
 # But just so we know what we did to the data.
 #
-# It is: in hours, and: with np.log10 applied to that.
+# It is: in days, and: with np.log10 applied to that.
 
 
 if __name__ == "__main__":
@@ -170,16 +170,16 @@ if __name__ == "__main__":
   print(len(df))
   
   df.to_csv("/home/gnlop/carb_acids/carb_acids.csv")
-      df = pd.read_csv(data / "carb_acids.csv",sep="\t")
-      df["canonical_smiles"] = df["Compound"].apply(iupac_to_smiles)
-      df["canonical_smiles"] = df["canonical_smiles"].apply(lambda s: s.strip())
-      df = df[df.canonical_smiles.apply(len) > 0]
-      add_cv_by_col(df,"canonical_smiles")
-      df["split"] = df["cv"]
-      def time_parse(val):
-          return float(val.split()[0].replace(",",""))
-  
-      for col in ["tAA","tA","tN","tB"]:
-          df[col] = df[col].apply(time_parse)
-          df[col] = df[col].apply(np.log10)
-      df.to_csv(data / "carb_acids_2.csv")
+  df = pd.read_csv(data / "carb_acids.csv",sep="\t")
+  df["canonical_smiles"] = df["Compound"].apply(iupac_to_smiles)
+  df["canonical_smiles"] = df["canonical_smiles"].apply(lambda s: s.strip())
+  df = df[df.canonical_smiles.apply(len) > 0]
+  add_cv_by_col(df,"canonical_smiles")
+  df["split"] = df["cv"]
+  def time_parse(val):
+      return float(val.split()[0].replace(",",""))
+
+  for col in ["tAA","tA","tN","tB"]:
+      df[col] = df[col].apply(time_parse)
+      df[col] = df[col].apply(np.log10)
+  df.to_csv(data / "carb_acids_2.csv")
