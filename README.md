@@ -23,7 +23,6 @@ Then download the binaries of xtb version 6.7.0:
 
 An example of usage via CLI command:
 
-    # Run predictions:
     python run_ester_predictions.py --smi 'CCOC(=O)CCN(SN(C)C(=O)Oc1cccc2c1OC(C)(C)C2)C(C)C'
 
 The xtb calculations are now saved in a "./calculations" folder.
