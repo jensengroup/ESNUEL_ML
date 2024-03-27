@@ -1,0 +1,867 @@
+id,name,smiles,ref,ph5,ph7,ph9,pcp_smiles
+1,Allyl chloride,C=CCCl,"Robertson, R.E. and Scott, J.M.W. The neutral
+hydrolysis of some allyl and benzyl halides. J. Chem.
+Soc. 1961, 1596-1604.",,6.45,,C=CCCl
+2,Chloromethane,CCl,"Laughton, P.M. and Robertson, R.E. Solvolysis in
+deuterium and hydrogen oxide. Can. J. Chem. 1956, 34,
+1714-1718.; Fells, I. and Moelwyn-Hughes, E.A. The
+kinetics of the hydrolysis of the chlorinated methanes.
+J. Chem. Soc. 1959, 398-409.",,380.0,126000.0,CCl
+3,Chloroethane,CCCl,"Laughton, P.M. and Robertson, R.E. Solvolysis in
+hydrogen and deuterium oxide: III. Alkyl halides. Can. J.
+Chem. 1959, 37, 1491-1497.",,413.0,,CCCl
+4,2-Chloropropane,CC(C)Cl,"Laughton, P.M. and Robertson, R.E. Solvolysis in
+hydrogen and deuterium oxide: III. Alkyl halides. Can. J.
+Chem. 1959, 37, 1491-1497.",,31.1,,CC(C)Cl
+5,2-Chloro-2-methylpropane,CC(C)(C)Cl,"Laughton, P.M. and Robertson, R.E. Solvolysis in
+deuterium and hydrogen oxide. Can. J. Chem. 1956, 34,
+1714-1718.",,0.000252,,CC(C)(C)Cl
+6,"Cis-1,4-dichloro-2-butene",ClC/C=C\CCl,"Ellington, J.J. et al. Measurement of hydrolysis rate
+constants for evaluation of hazardous waste land
+disposal: volume 1. EPA/600/3-86/043. 1987.",,4.44,,ClC/C=C\CCl
+7,"Trans-1,4-dichloro-2-butene",ClC/C=C/CCl,"Ellington, J.J. et al. Measurement of hydrolysis rate
+constants for evaluation of hazardous waste land
+disposal: volume 1. EPA/600/3-86/043. 1987.",,4.32,,ClC/C=C/CCl
+8,"Cis-1,3-dichloropropene",Cl/C=C\CCl,"Miyamoto, K. and Urano, K. Reaction rates and
+intermediates of chlorinated organic compounds in
+water and soil. Chemosphere. 1996, 32(11), 2399-2408.",,15.8,,Cl/C=C\CCl
+9,"Trans-1,3-dichloropropene",Cl/C=C/CCl,"Miyamoto, K. and Urano, K. Reaction rates and
+intermediates of chlorinated organic compounds in
+water and soil. Chemosphere. 1996, 32(11), 2399-2408.",,15.8,,Cl/C=C/CCl
+10,Allyl bromide,C=CCBr,"Robertson, R.E. and Scott, J.M.W. The neutral
+hydrolysis of some allyl and benzyl halides. J. Chem.
+Soc. 1961, 1596-1604.",,0.446,,C=CCBr
+11,1-Bromo-3-phenylpropane,BrCCCc1ccccc1,"Vogel, T.M. and Reinhard, M. Reaction products and
+rates of disappearance of simple bromoalkanes, 1,2dibromopropane, and 1,2-dibromoethane in water.
+Environ. Sci. Technol. 1986, 20, 992-997.",,152.0,,BrCCCc1ccccc1
+12,1-Bromoheptane,CCCCCCCBr,"Vogel, T.M. and Reinhard, M. Reaction products and
+rates of disappearance of simple bromoalkanes, 1,2dibromopropane, and 1,2-dibromoethane in water.
+Environ. Sci. Technol. 1986, 20, 992-997.",,69.5,,CCCCCCCBr
+13,Bromomethane,CBr,"EFSA (European Food Safety Authority), 2006. Draft
+Assessment Report (DAR): Initial risk assessment
+provided by the Member State The United Kingdom for
+the existing active substance Methyl Bromide of the
+third stage (part A) of the review programme referred
+to in Article 8(2) of Council Directive 91/414/EEC,
+Volume 3, Annex B, B.8./Gentile, I.R. et al. The
+degradation of methyl bromide in some natural fresh
+waters. Influence of temperature, pH and light. Pestic.
+Sci. 1989, 25, 261-272.; Laughton, P.M. and Robertson,
+R.E. Solvolysis in deuterium and hydrogen oxide. Can. J.
+Chem. 1956, 34, 1714-1718.; Fells, I. and MoelwynHughes, E.A. The kinetics of the hydrolysis of the
+chlorinated methanes. J. Chem. Soc. 1959, 398-409.",3400.0,17.1,1870.0,CBr
+14,Bromoethane,CCBr,"Laughton, P.M. and Robertson, R.E. Solvolysis in hydrogen and deuterium oxide: III. Alkyl halides. Can. J.
+Chem. 1959, 37, 1491-1497.",,22.3,,CCBr
+15,2-Bromopropane,CC(C)Br,"Laughton, P.M. and Robertson, R.E. Solvolysis in
+deuterium and hydrogen oxide. Can. J. Chem. 1956, 34,
+1714-1718.",,1.83,,CC(C)Br
+16,1-Bromopropane,CCCBr,"Laughton, P.M. and Robertson, R.E. Solvolysis in
+hydrogen and deuterium oxide: III. Alkyl halides. Can. J.
+Chem. 1959, 37, 1491-1497.",,34.5,,CCCBr
+17,1-Bromohexane,CCCCCCBr,"Schwarzenbach, R.P. et al. Groundwater contamination
+by volatile halogenated alkanes: abiotic formation of
+volatile sulfur compounds under anaerobic conditions.
+Environ. Sci. Technol. 1985, 19(4), 322-327.",,41.3,,CCCCCCBr
+18,3-Bromohexane,CCCC(Br)CC,"Schwarzenbach, R.P. et al. Groundwater contamination
+by volatile halogenated alkanes: abiotic formation of
+volatile sulfur compounds under anaerobic conditions.
+Environ. Sci. Technol. 1985, 19(4), 322-327.",,0.48,,CCCC(Br)CC
+19,"3,3-Bis(bromomethyl)oxetane",BrCC1(CBr)COC1,"Ezra, S. et al. Chemical transformation of 3-bromo-2,2bis(bromomethyl)-propanol under basic conditions.
+Environ. Sci. Technol. 2005, 39, 505-512.",,,6500.0,BrCC1(CBr)COC1
+20,Allyl iodide,C=CCI,"Robertson, R.E. and Scott, J.M.W. The neutral
+hydrolysis of some allyl and benzyl halides. J. Chem.
+Soc. 1961, 1596-1604.",,1.86,,C=CCI
+21,Iodomethane,CI,"Laughton, P.M. and Robertson, R.E. Solvolysis in
+deuterium and hydrogen oxide. Can. J. Chem. 1956, 34,
+1714-1718.; Fells, I. and Moelwyn-Hughes, E.A. The
+kinetics of the hydrolysis of the chlorinated methanes.
+J. Chem. Soc. 1959, 398-409.",,108.0,12100.0,CI
+22,Iodoethane,CCI,"Laughton, P.M. and Robertson, R.E. Solvolysis in
+hydrogen and deuterium oxide: III. Alkyl halides. Can. J.
+Chem. 1959, 37, 1491-1497.",,37.5,,CCI
+23,2-Iodopropane,CC(C)I,"Laughton, P.M. and Robertson, R.E. Solvolysis in
+hydrogen and deuterium oxide: III. Alkyl halides. Can. J.
+Chem. 1959, 37, 1491-1497.",,2.02,,CC(C)I
+24,"1,2-Dichloroethane",ClCCCl,"Jeffers, P.M. et al. Homogeneous hydrolysis rate
+constants for selected chlorinated methanes, ethanes,
+ethenes, and propanes. Environ. Sci. Tech. 1989, 23,
+965-969.",,26300.0,,ClCCCl
+25,Methylene chloride,ClCCl,"Dilling, W. L.; Tefertiller, N.; Kallos, G. Evaporation rates
+and reactivities of methylene chloride, chloroform,
+1,1,1-trichloroethane, trichloroethylene,
+tetrachloroethylene, and other chlorinated compounds
+in dilute aqueous solutions. Environ. Sci. Technol. 1975,
+9, 833.; Miyamoto, K. and Urano, K. Reaction rates and
+intermediates of chlorinated organic compounds in
+water and soil. Chemosphere. 1996, 32(11), 23992408.; Fells, I. and Moelwyn-Hughes, E.A. The kinetics
+of the hydrolysis of methylene dichloride. J. Chem. Soc.
+1958, 1326.; Fells, I. and Moelwyn-Hughes, E.A. The
+kinetics of the hydrolysis of the chlorinated methanes.
+J. Chem. Soc. 1959, 398-409.",,56000.0,36100000.0,ClCCl
+26,Chloroform,ClC(Cl)Cl,"Dilling, W. L.; Tefertiller, N.; Kallos, G. Evaporation rates
+and reactivities of methylene chloride, chloroform,
+1,1,1-trichloroethane, trichloroethylene,
+tetrachloroethylene, and other chlorinated compounds
+in dilute aqueous solutions. Environ. Sci. Technol. 1975,
+9, 833.; Miyamoto, K. and Urano, K. Reaction rates and
+intermediates of chlorinated organic compounds in
+water and soil. Chemosphere. 1996, 32(11), 2399-2408.",,470.0,18300.0,ClC(Cl)Cl
+27,"1,1,2-trichloroethene",ClC=C(Cl)Cl,"Dilling, W. L.; Tefertiller, N.; Kallos, G. Evaporation rates
+and reactivities of methylene chloride, chloroform,
+1,1,1-trichloroethane, trichloroethylene,
+tetrachloroethylene, and other chlorinated compounds
+in dilute aqueous solutions. Environ. Sci. Technol. 1975,
+9, 833.",,325.0,,ClC=C(Cl)Cl
+28,Tetrachloroethene,ClC(Cl)=C(Cl)Cl,"Dilling, W. L.; Tefertiller, N.; Kallos, G. Evaporation rates
+and reactivities of methylene chloride, chloroform,
+1,1,1-trichloroethane, trichloroethylene,
+tetrachloroethylene, and other chlorinated compounds
+in dilute aqueous solutions. Environ. Sci. Technol. 1975,
+9, 833.",,268.0,,ClC(Cl)=C(Cl)Cl
+29,Carbon tetrachloride,ClC(Cl)(Cl)Cl,"Jeffers, P.M. et al. Hydrolysis of carbon tetrachloride.
+Environ. Toxicol. Chem. 1996, 15, 1064-1065.",,14600.0,,ClC(Cl)(Cl)Cl
+30,Trichloroethane,CC(Cl)(Cl)Cl,"Jeffers, P.M. and Wolfe, N.L. Hydrolysis of carbon
+tetrachloride. Science. 1989, 246, 1638.",,479.0,,CC(Cl)(Cl)Cl
+31,Tribromomethane,BrC(Br)Br,"Radding, S.B. et al. Review of the environmental fate of
+selected chemicals: Task 3 Final Report. EPA-560/5-77003. 1997.",,251000.0,,BrC(Br)Br
+32,"1,2-Dibromopropane",CC(Br)CBr,"Vogel, T.M. and Reinhard, M. Reaction products and
+rates of disappearance of simple bromoalkanes, 1,2dibromopropane, and 1,2-dibromoethane in water.
+Environ. Sci. Technol. 1986, 20, 992-997.",,380.0,130000.0,CC(Br)CBr
+33,"1,3-Dibromopropane",BrCCCBr,"Vogel, T.M. and Reinhard, M. Reaction products and
+rates of disappearance of simple bromoalkanes, 1,2dibromopropane, and 1,2-dibromoethane in water.
+Environ. Sci. Technol. 1986, 20, 992-997.",,67.7,,BrCCCBr
+34,"2,2-Dibromopropane",CC(C)(Br)Br,"Queen, A. and Robertson, R.E. Heat capacity of
+activation for the hydrolysis of 2,2-dihalopropanes. J.
+Am. Chem. Soc. 1966, 88, 1363-1365.",,0.181,,CC(C)(Br)Br
+35,"1,2-Dichloroethane",ClCCCl,"Jeffers, P.M. et al. Homogeneous hydrolysis rate
+constants for selected chlorinated methanes, ethanes,
+ethenes, and propanes. Environ. Sci. Tech. 1989, 23,
+965-969.",,26300.0,,ClCCCl
+36,"1,1-Dichloroethane",CC(Cl)Cl,"Jeffers, P.M. et al. Homogeneous hydrolysis rate
+constants for selected chlorinated methanes, ethanes,
+ethenes, and propanes. Environ. Sci. Tech. 1989, 23,
+965-969.",,22400.0,,CC(Cl)Cl
+37,Pentachloroethane,ClC(Cl)C(Cl)(Cl)Cl,"Jeffers, P.M. et al. Homogeneous hydrolysis rate
+constants for selected chlorinated methanes, ethanes,
+ethenes, and propanes. Environ. Sci. Tech. 1989, 23,
+965-969.",,3.67,,ClC(Cl)C(Cl)(Cl)Cl
+38,Methoxychlor,COc1ccc(C(c2ccc(OC)cc2)C(Cl)(Cl)Cl)cc1,"Wolfe, N.L. et al. Methoxychlor and DDT degradation in
+water: rates and products. Environ. Sci. Technol. 1977,
+11, 1077-1081.",,481.0,3240.0,COc1ccc(C(c2ccc(OC)cc2)C(Cl)(Cl)Cl)cc1
+39,DDT,,"Wolfe, N.L. et al. Methoxychlor and DDT degradation in 5.13E+04
+water: rates and products. Environ. Sci. Technol. 1977,
+11, 1077-1081.",51300.0,,107.0,Clc1ccc(C(c2ccc(Cl)cc2)C(Cl)(Cl)Cl)cc1
+40,"1,1,2,2-Tetrachloroethane",ClC(Cl)C(Cl)Cl,"Cooper, W.J. et al. Abiotic transformations of
+halogenated organics. 1. Elimination reaction of 1,1,2,2tetrachloroethane and formation of 1,1,2trichloroethene. Environ. Sci. Technol. 1987, 21, 11121114.",,,1.28,ClC(Cl)C(Cl)Cl
+41,"2,2-Dichloropropane",CC(C)(Cl)Cl,"Queen, A. and Robertson, R.E. Heat capacity of
+activation for the hydrolysis of 2,2-dihalopropanes. J.
+Am. Chem. Soc. 1966, 88, 1363-1365.",,0.963,,CC(C)(Cl)Cl
+42,"(1aR,6R,7S,7aS)-1aH,6H,7H,7aHnaphtho[1,2-b]oxirene-6,7-diol",O[C@@H]1[C@H](O)C=CC2=CC[C@H]3OC3[C@@H]21,"Becker, A.R. et al. solution chemistry of the syn- and
+anti-tetrahydrodiol epoxides, the syn- and antitetrahydrodimethoxy epoxides, and the 1,2- and 1,4tetrahydro epoxides of naphthalene. J. Am. Chem. Soc.
+1979, 101(19), 5679-5686.",0.0389,1.23,,
+43,7-Oxabicyclo[4.1.0]hept-2-ene,C1=CC2OC2CC1,"Whalen, D.L. Buffer catalysis in epoxide hydrolyses. J.
+Am. Chem. Soc. 1973, 95(10), 3432-3434.",4.89e-05,0.0365,,C1=CC2OC2CC1
+44,(2Z)-9-oxabicyclo[6.1.0]non-2-ene,C1=C\C2OC2CCCC/1,"Whalen, D.L. Buffer catalysis in epoxide hydrolyses. J.
+Am. Chem. Soc. 1973, 95(10), 3432-3434.",0.226,,,C1=C\C2OC2CCCC/1
+45,"(3S,5R,6S,7R)-4oxahexacyclo[11.6.2.0²,⁸.0³,⁵.0¹⁰,²⁰.0
+¹⁷,²¹]henicosa1(19),2(8),9,11,13,15,17,20-octaene6,7-diol",,"Whalen, D.L. et al. Changes of mechanisms and product
+distributions in the hydrolysis of benzo[a]pyrene-7,8diol 9,10-epoxide metabolites induced by changes in
+pH. J. Am. Chem. Soc. 1977, 99(16), 5522-5524.",0.00101,0.000319,,
+46,"(3R,5S,6S,7R)-4oxahexacyclo[11.6.2.0²,⁸.0³,⁵.0¹⁰,²⁰.0
+¹⁷,²¹]henicosa1(20),2(8),9,11,13,15,17(21),18octaene-6,7-diol",,"Whalen, D.L. et al. Changes of mechanisms and product
+distributions in the hydrolysis of benzo[a]pyrene-7,8diol 9,10-epoxide metabolites induced by changes in
+pH. J. Am. Chem. Soc. 1977, 99(16), 5522-5524.",0.000506,0.0127,,
+47,Ethylene oxide,C1CO1,"Bogyo, D.A. et al. Investigation of selected potential
+environmental contaminants: epoxides. EPA-560/1180-005. 1980.; Bronsted, J.N. et al. Kinetic studies of
+ethylene oxides. J. Amer. Chem. Soc. 1929, 51, 428461.; Long, F.A. and Pritchard, J.G. Hydrolysis of
+substituted ethylene oxides in H2O solutions. J. Am.
+Chem. Soc. 1956, 78, 2663-2667.",88.1,12.9,0.764,C1CO1
+48,Propylene oxide,CC1CO1,"Bogyo, D.A. et al. Investigation of selected potential
+environmental contaminants: epoxides. EPA-560/1180-005, 1980.; Koskikallio, J. and Whalley, E. Effect of
+pressure on the spontaneous and the base-catalyzed
+hydrolyses of epoxides. Can. J. Chem. 1959, 37, 783787.; Ross, W.C.J. The reactions of certain epoxides in
+aqueous solutions. J. Chem. Soc. 1950, 2257-2271.",19.4,11.4,9530.0,CC1CO1
+49,Phosmet,,"EFSA (European Food Safety Authority), 2005. Draft
+Assessment Report (DAR): Initial risk assessment
+provided by the rapporteur Member State Spain for the
+existing active substance phosmet of the second stage
+of the review programme referred to in Article 8(2) of
+Council Directive 91/414/EEC, Volume 3, Annex B, B.1B.5.",8.02,0.409,0.00864,COP(=S)(OC)SCN1C(=O)c2ccccc2C1=O
+50,Chlorpyrifos,,"Wu, J. and Laird, D.A. Hydrolysis of Chlorpyrifos in
+Aqueous and Colloidal Systems. Isr. J. Chem. 2002, 42,
+99-107.; Hui, T.J.; Ariffin, M.M.; Tahir, N.M. Hydrolysis
+of Chlorpyrifos in aqueous solutions at different
+temperatures and pH. Malay. J. Anal. Sci. 2010, 14(2),
+50-55; Chlorpyrifos - WHO Specifications and
+evaluations for public health pesticides, 2002.",43.4,56.5,33.8,CCOP(=S)(OCC)Oc1nc(Cl)c(Cl)cc1Cl
+51,Fenamiphos,,"EFSA (European Food Safety Authority), 2005b. Draft
+Assessment Report (DAR): Initial risk assessment
+provided by the Member State the Netherlands for the
+existing active substance Fenamiphos of the second
+stage of the review programme referred to in Article
+8(2) of Council Directive 91/414/EEC, Volume 3, Annex
+B, B.8.",245.0,301.0,235.0,CCOP(=O)(NC(C)C)Oc1ccc(SC)c(C)c1
+52,Fenitrothion,,"EFSA (European Food Safety Authority), 2005c. Draft
+Assessment Report (DAR): Initial risk assessment
+provided by the Member State the United Kingdom for
+the existing active substance Fenitrothion of the second
+stage of the review programme referred to in Article
+8(2) of Council Directive 91/414/EEC, Volume 3, Annex
+B, B.8.",196.0,183.0,101.0,COP(=S)(OC)Oc1ccc([N+](=O)[O-])c(C)c1
+53,Pirimiphos-methyl,,"EFSA (European Food Safety Authority), 2005. Draft
+Assessment Report (DAR): Initial risk assessment
+provided by the rapporteur Member State United
+Kingdom for the existing active substance pirimiphosmethyl of the second stage of the review programme
+referred to in Article 8(2) of council Directive
+91/414/EEC, Volume 3, Annex B, B.1-B.5.",13.5,117.0,75.0,CCN(CC)c1nc(C)cc(OP(=S)(OC)OC)n1
+54,Dichlorvos,COP(=O)(OC)OC=C(Cl)Cl,"EFSA (European Food Safety Authority), 2005. Draft
+Assessment Report (DAR): Initial risk assessment
+provided by the rapporteur Member State Italy for the
+existing active substance dichlorvos of the second stage
+of the review programme referred to in Article 9(2) of
+Council Directive 91/414/EEC, Volume 3, Annex B, B.1B.5.",3.44,0.994,1.91,COP(=O)(OC)OC=C(Cl)Cl
+55,Tolclfos-methyl,,"EFSA (European Food Safety Authority), 2005. Draft
+Assessment Report (DAR): Initial risk assessment
+provided by the rapporteur Member State Sweden for
+the existing active substance tolclfos-methyl of the
+second stage of the review programme referred to in
+Article 8(2) of Council Directive 91/414/EEC, Volume 3,
+Annex B, B.1-B.5.",486.0,32.9,212.0,
+56,Pyraclofos,,"Australian pesticides and veterinary medicines
+authority, Product Number 59304.
+http://apvma.gov.au/sites/default/files/publication/14
+146-prs-colleague.pdf (accessed Jan. 2017).",128000.0,27.0,0.738,CCCSP(=O)(OCC)Oc1cnn(-c2ccc(Cl)cc2)c1
+57,Iprobenfos,,"Park, B.J. et al. Decomposition rate of iprobenfos,
+isoprothiolane, and diazinon by some environmental
+factors in aqueous systems. Korean J. Pestic. Sci. 1998,
+2(2), 39-44.",944.0,94.4,187.0,CC(C)OP(=O)(OC(C)C)SCc1ccccc1
+58,Diazinon,CCOP(=S)(OCC)Oc1cc(C)nc(C(C)C)n1,"Park, B.J. et al. Decomposition rate of iprobenfos,
+isoprothiolane, and diazinon by some environmental
+factors in aqueous systems. Korean J. Pestic. Sci. 1998,
+2(2), 39-44.",,2.35,11.7,CCOP(=S)(OCC)Oc1cc(C)nc(C(C)C)n1
+59,Triazophos,,"Kunde, L. et al. Hydrolytic Products and Kinetics of
+Triazophos in Buffered and Alkaline Solutions with
+Different Values of pH. J. Agric. Food Chem. 2004, 52,
+5404-5411.",300.0,44.9,28.5,CCOP(=S)(OCC)Oc1ncn(-c2ccccc2)n1
+60,Profenofos,,"Office of Pesticide Programs: Environmental Fate and
+Effects Division, Environmental Risk Branch IV, 1999.
+Registration Eligibility Decision: Environmental Risk
+Assessment for Profenofos.",106.0,43.0,0.33,CCCSP(=O)(OCC)Oc1ccc(Br)cc1Cl
+61,Chlorfenvinphos,,"National Registration Authority for Agricultural and
+Veterinary Chemicals, The NRA Review of
+Chlorfenvinphos, Interim Report. Vol 1, Dec 2000.
+http://apvma.gov.au/sites/default/files/publication/14
+696-chlorfenvinphos-irr-vol1.pdf (accessed Jan 2017).",399000.0,86.4,7480.0,CCOP(=O)(OCC)O/C(=C/Cl)c1ccc(Cl)cc1Cl
+62,Tetrachlorvinphos,,"Akhtar, MH Degradation of Tetrachlorvinphos and Its
+Major Metabolite 2,4,5-Trichlorophenacyl Chloride in
+Aqueous Media. J. Agric. Food Chem. 1977, 25(4), 848851.",18.1,58.3,2.7,COP(=O)(OC)O/C(=C\Cl)c1cc(Cl)c(Cl)cc1Cl
+63,Monocrotophos,,"Lee, P.W. et al. Fate of Monocrotophos in the
+Environment J. Agric. Food Chem. 1990, 38(2), 567-573.",6340.0,107.0,73.0,CNC(=O)/C=C(\C)OP(=O)(OC)OC
+64,Oxydemeton-methyl,,"Food and Agriculture Organization of the United
+Nations.
+http://www.fao.org/fileadmin/templates/agphome/do
+cuments/Pests_Pesticides/JMPR/Evaluation98/odm.pdf
+(Accessed Jan 2017).",394.0,36.7,5.42,CCS(=O)CCSP(=O)(OC)OC
+65,Phorate,,"Food and Agriculture Organization of the United
+Nations.
+http://www.fao.org/fileadmin/templates/agphome/do
+cuments/Pests_Pesticides/JMPR/Evaluation12/Phorate.
+pdf (Accessed Jan 2017).",2.67,2.86,1.93,CCOP(=S)(OCC)SCSCC
+66,Naled,,"NALED Task 3: Environmental Fate Profile. Contract No.
+68-01-5830. Final Report Aug 1982. Dynamac
+Corporation. Rockville, MD 20852.",4.0,0.64,0.07,COP(=O)(OC)OC(Br)C(Cl)(Cl)Br
+67,Phosgene,O=C(Cl)Cl,"Prager et al. Hydrolytic removal of the chlorinated
+products from the oxidative free-radical-induced
+degradation of chloroethylenes: acid chlorides and
+chlorinated acetic acids. J. Chem. Soc., Perkin Trans. 2.
+2001, 1641–1647.; Manogue, W. H. and Pigford, R. L.
+The kinetics of the absorption of phosgene into water
+and aqueous solutions. AiChE J. 1960, 6, 494.; Mertens,
+R.; von Sonntag, C.; Lind, J.; Merényi, G. A kinetic study
+of the hydrolysis of phosgene in aqueous solution by
+pulse radiolysis. Angew. Chem. Int. Ed. Engl. 1994,
+33(12), 1259.",,6.44e-07,,O=C(Cl)Cl
+68,Formyl chloride,O=CCl,"Prager et al. Hydrolytic removal of the chlorinated
+products from the oxidative free-radical-induced
+degradation of chloroethylenes: acid chlorides and
+chlorinated acetic acids. J. Chem. Soc., Perkin Trans. 2.
+2001, 1641–1647.",,1.16e-08,,O=CCl
+69,Acetyl chloride,CC(=O)Cl,"Prager et al. Hydrolytic removal of the chlorinated
+products from the oxidative free-radical-induced
+degradation of chloroethylenes: acid chlorides and
+chlorinated acetic acids. J. Chem. Soc., Perkin Trans. 2.
+2001, 1641–1647.",,1.32e-08,,CC(=O)Cl
+70,Chloroacetyl chloride,O=C(Cl)CCl,"Prager et al. Hydrolytic removal of the chlorinated
+products from the oxidative free-radical-induced
+degradation of chloroethylenes: acid chlorides and
+chlorinated acetic acids. J. Chem. Soc., Perkin Trans. 2.
+2001, 1641–1647.",,8.43e-07,,O=C(Cl)CCl
+71,Dichloroacetyl chloride,O=C(Cl)C(Cl)Cl,"Prager et al. Hydrolytic removal of the chlorinated
+products from the oxidative free-radical-induced
+degradation of chloroethylenes: acid chlorides and
+chlorinated acetic acids. J. Chem. Soc., Perkin Trans. 2.
+2001, 1641–1647.",,1.55e-08,,O=C(Cl)C(Cl)Cl
+72,Trichloroacetyl chloride,O=C(Cl)C(Cl)(Cl)Cl,"Prager et al. Hydrolytic removal of the chlorinated
+products from the oxidative free-radical-induced
+degradation of chloroethylenes: acid chlorides and
+chlorinated acetic acids. J. Chem. Soc., Perkin Trans. 2.
+2001, 1641–1647.",,1.43e-08,,O=C(Cl)C(Cl)(Cl)Cl
+73,Succinyl dichloride,O=C(Cl)CCC(=O)Cl,"Prager et al. Hydrolytic removal of the chlorinated
+products from the oxidative free-radical-induced
+degradation of chloroethylenes: acid chlorides and
+chlorinated acetic acids. J. Chem. Soc., Perkin Trans. 2.
+2001, 1641–1647.",,7.73e-07,,O=C(Cl)CCC(=O)Cl
+74,Methyl thiochloroformate,,"Queen, A.; Nour, T.A.; Paddon-Row, M.N.; Preston, K.
+Kinetics of the hydrolysis of thiochloroformate esters in
+pure water. Can. J. Chem. 1970, 48, 522-527.",,1.13e-11,,CSC(=O)Cl
+75,Chloro(ethylsulfanyl)methanone,CCSC(=O)Cl,"Queen, A.; Nour, T.A.; Paddon-Row, M.N.; Preston, K.
+Kinetics of the hydrolysis of thiochloroformate esters in
+pure water. Can. J. Chem. 1970, 48, 522-527.",,2.84e-12,,
+76,Chloro(isopropylsulfanyl)methanone,CC(C)SC(=O)Cl,"Queen, A.; Nour, T.A.; Paddon-Row, M.N.; Preston, K.
+Kinetics of the hydrolysis of thiochloroformate esters in
+pure water. Can. J. Chem. 1970, 48, 522-527.",,6.48e-13,,
+77,Phenyl thiochloroformate,,"Queen, A.; Nour, T.A.; Paddon-Row, M.N.; Preston, K.
+Kinetics of the hydrolysis of thiochloroformate esters in
+pure water. Can. J. Chem. 1970, 48, 522-527.",,7.15e-11,,
+78,S-propyl chlorothioformate,CCCSC(=O)Cl,"Queen, A.; Nour, T.A.; Paddon-Row, M.N.; Preston, K.
+Kinetics of the hydrolysis of thiochloroformate esters in
+pure water. Can. J. Chem. 1970, 48, 522-527.",,2.56e-12,,CCCSC(=O)Cl
+79,Benzoyl fluoride,O=C(F)c1ccccc1,"Song, B.D. and Jencks, W.P. Mechanism of solvolysis of
+substituted benzoyl halides. J. Am. Chem. Soc., 1989,
+111, 8470-8479.",,0.00446,,O=C(F)c1ccccc1
+80,Benzoyl chloride,O=C(Cl)c1ccccc1,"Song, B.D. and Jencks, W.P. Mechanism of solvolysis of
+substituted benzoyl halides. J. Am. Chem. Soc., 1989,
+111, 8470-8479.",,7.29e-06,,O=C(Cl)c1ccccc1
+81,3-Chlorobenzoyl fluoride,O=C(F)c1cccc(Cl)c1,"Song, B.D. and Jencks, W.P. Mechanism of solvolysis of
+substituted benzoyl halides. J. Am. Chem. Soc., 1989,
+111, 8470-8479.",,0.000891,,O=C(F)c1cccc(Cl)c1
+82,3-Chlorobenzoyl chloride,O=C(Cl)c1cccc(Cl)c1,"Song, B.D. and Jencks, W.P. Mechanism of solvolysis of
+substituted benzoyl halides. J. Am. Chem. Soc., 1989,
+111, 8470-8479.",,0.000143,,O=C(Cl)c1cccc(Cl)c1
+83,3-(Trifluoromethyl)benzoyl chloride,O=C(Cl)c1cccc(C(F)(F)F)c1,"Song, B.D. and Jencks, W.P. Mechanism of solvolysis of
+substituted benzoyl halides. J. Am. Chem. Soc., 1989,
+111, 8470-8479.",,0.000236,,O=C(Cl)c1cccc(C(F)(F)F)c1
+84,4-Nitrobenzoyl fluoride,O=C(F)c1ccc([N+](=O)[O-])cc1,"Song, B.D. and Jencks, W.P. Mechanism of solvolysis of
+substituted benzoyl halides. J. Am. Chem. Soc., 1989,
+111, 8470-8479.",,0.000157,,O=C(F)c1ccc([N+](=O)[O-])cc1
+85,4-Nitrobenzoyl chloride,O=C(Cl)c1ccc([N+](=O)[O-])cc1,"Song, B.D. and Jencks, W.P. Mechanism of solvolysis of
+substituted benzoyl halides. J. Am. Chem. Soc., 1989,
+111, 8470-8479.",,0.000129,,O=C(Cl)c1ccc([N+](=O)[O-])cc1
+86,4-Methoxybenzoyl fluoride,COc1ccc(C(=O)F)cc1,"Song, B.D. and Jencks, W.P. Mechanism of solvolysis of
+substituted benzoyl halides. J. Am. Chem. Soc., 1989,
+111, 8470-8479.",,0.0277,,COc1ccc(C(=O)F)cc1
+87,3-Methoxybenzoyl fluoride,COc1cccc(C(=O)F)c1,"Song, B.D. and Jencks, W.P. Mechanism of solvolysis of
+substituted benzoyl halides. J. Am. Chem. Soc., 1989,
+111, 8470-8479.",,0.00236,,COc1cccc(C(=O)F)c1
+88,3-Methoxybenzoyl chloride,COc1cccc(C(=O)Cl)c1,"Song, B.D. and Jencks, W.P. Mechanism of solvolysis of
+substituted benzoyl halides. J. Am. Chem. Soc., 1989,
+111, 8470-8479.",,1.34e-05,,COc1cccc(C(=O)Cl)c1
+89,4-Methylbenzoyl fluoride,Cc1ccc(C(=O)F)cc1,"Song, B.D. and Jencks, W.P. Mechanism of solvolysis of
+substituted benzoyl halides. J. Am. Chem. Soc., 1989,
+111, 8470-8479.",,0.0115,,Cc1ccc(C(=O)F)cc1
+90,4-(Dimethylamino)benzoyl fluoride,CN(C)c1ccc(C(=O)F)cc1,"Song, B.D. and Jencks, W.P. Mechanism of solvolysis of
+substituted benzoyl halides. J. Am. Chem. Soc., 1989,
+111, 8470-8479.",,0.00229,,CN(C)c1ccc(C(=O)F)cc1
+91,4-(Dimethylamino)benzoyl chloride,CN(C)c1ccc(C(=O)Cl)cc1,"Song, B.D. and Jencks, W.P. Mechanism of solvolysis of
+substituted benzoyl halides. J. Am. Chem. Soc., 1989,
+111, 8470-8479.",,8.023e-11,,CN(C)c1ccc(C(=O)Cl)cc1
+92,Bis(2-ethylhexyl) phthalate,CCCCC(CC)COC(=O)c1ccccc1C(=O)OCC(CC)CCCC,"Larson, R.A. and Weber, E.J. Reaction Mechanisms in
+Environmental Organic Chemistry. Boca Raton: CRC
+Press, Inc., 1994.; Montgomery, J. Groundwater
+Chemicals Desk Reference Fourth Edition. Boca Raton:
+CRC Press, Inc., 2007.",,,0.02,CCCCC(CC)COC(=O)c1ccccc1C(=O)OCC(CC)CCCC
+93,Fenpropathrin,,"Takahashi, N.; Mikami, N.; Yamada, H.; Miyamoto, J.
+Hydrolysis of the Pyrethoid Insecticide Fenpropathrin in
+Aqueous Media. Pestic. Sci. 1985, 16, 113-118.",2040000.0,,,CC1(C)C(C(=O)OC(C#N)c2cccc(Oc3ccccc3)c2)C1(C)C
+94,Chlorobenzilate,CCOC(=O)C(O)(c1ccc(Cl)cc1)c1ccc(Cl)cc1,"Larson, R.A. and Weber, E.J. Reaction Mechanisms in
+Environmental Organic Chemistry. Boca Raton: CRC
+Press, Inc., 1994, 130.",,540.0,,CCOC(=O)C(O)(c1ccc(Cl)cc1)c1ccc(Cl)cc1
+95,"2,5-dichlorobenzoic acid
+methylester",O=C(O)c1cc(Cl)ccc1Cl,"EFSA (European Food Safety Authority), 2007a. Draft
+Assessment Report (DAR): Initial risk assessment
+provided by the Member State Germany for the
+existing active substance Dichlorobenzoic Acid
+Methylester of the third stage (part B) of the review
+programme referred to in Article 8(2) of Council
+Directive 91/414/EEC, Volume 3, Annex B, part 2, B.6.",15000.0,513.0,59.6,
+96,Propaquizafop,,"EFSA (European Food Safety Authority), 2006. Draft
+Assessment Report (DAR): Initial risk assessment
+provided by the Member State Italy for the existing
+active substance Propaquizafop of the third stage (part
+A) of the review programme referred to in Article 8(2)
+of Council Directive 91/414/EEC, Volume 3, Annex B,
+B.8.",10.5,32.0,0.54,CC(C)=NOCCOC(=O)[C@@H](C)Oc1ccc(Oc2cnc3cc(Cl)ccc3n2)cc1
+97,Trinexapac,,"EFSA (European Food Safety Authority), 2005. Draft
+Assessment Report (DAR): Initial risk assessment
+provided by the Member State the Netherlands for the
+existing active substance Trinexapac of the second
+stage of the review programme referred to in Article
+8(2) of Council Directive 91/414/EEC, Volume 3, Annex
+B, B.7, part 1.",155.0,524.0,7.3,O=C1CC(C(=O)O)CC(=O)C1=C(O)C1CC1
+98,Diclofop-methyl,,"EFSA (European Food Safety Authority), 2007b. Draft
+Assessment Report (DAR): Initial risk assessment
+provided by the Member State France for the existing
+active substance Diclofop-Methyl of the third stage
+(part A) of the review programme referred to in Article
+8(2) of Council Directive 91/414/EEC, Volume 3, Annex
+B, part 4, B.8.",363.0,31.7,0.52,COC(=O)C(C)Oc1ccc(Oc2ccc(Cl)cc2Cl)cc1
+99,Fluroxypyr,,"EFSA (European Food Safety Authority), 2009. Draft
+Assessment Report (DAR): Initial risk assessment
+provided by the Member State Ireland for the existing
+active substance Fluroxypyr upon submission in the
+framework of the renewal of the inclusion of a first
+group of active substances in Annex I to Council
+Directive 91/414/EEC in accordance with Commission
+Regulation (EC) No 737/2007, Volume 3, B7.",,453.0,3.22,Nc1c(Cl)c(F)nc(OCC(=O)O)c1Cl
+100,Kresoxim-methyl,,"EFSA (European Food Safety Authority), 2010. Draft
+Assessment Report (DAR): Initial risk assessment
+provided by the Member State Belgium for the existing
+active substance Kresoxim-Methyl of the third stage
+(part A) of the review programme referred to in Article
+8(2) of Council Directive 91/414/EEC, Volume 3, Annex
+B, B.8.",849.0,34.5,0.336,CO/N=C(/C(=O)OC)c1ccccc1COc1ccccc1C
+101,Valifenalate,,"EFSA (European Food Safety Authority), 2012. Draft
+Assessment Report (DAR): Initial risk assessment
+provided by the Member State Hungary for the existing
+active substance Valifenalate of the third stage (part A)
+of the review programme referred to in Article 8(2) of
+Council Directive 91/414/EEC, Volume 3, Annex B, B.8.",,55.1,8.22,COC(=O)CC(NC(=O)[C@@H](NC(=O)OC(C)C)C(C)C)c1ccc(Cl)cc1
+102,Bensulfuron-methyl,,"EFSA (European Food Safety Authority). 2006b.
+Monograph prepared by the Member State Italy in the
+context of the inclusion of the following active
+substance Bensulfuron Methyl in Annex I of Council
+Directive 91/414/EEC, Volume 3, Annex B.8.",,,141.0,COC(=O)c1ccccc1CS(=O)(=O)NC(=O)Nc1nc(OC)cc(OC)n1
+103,"Naphtho(2,3-c)furan-1,3-dione",O=C1OC(=O)c2cc3ccccc3cc21,"Barros, T.C. et al. Hydrolysis of 1,8- and 2,3-naphthalic
+anhydrides and the mechanism of cyclization of 1,8naphthalic acid in aqueous solutions. J. Chem. Soc.,
+Perkin Trans. 2. 2001, 2342–2350.",,,0.000106,O=C1OC(=O)c2cc3ccccc3cc21
+104,"3,6-dimethylphthalic anhydride",Cc1ccc(C)c2c1C(=O)OC2=O,"Hawkins, M.D. Hydrolysis of phthalic and 3,6dimethylphthalic anhydrides. J. Chem. Soc., Perkin
+Trans. 2. 1975, 282-284.",,0.00814,,Cc1ccc(C)c2c1C(=O)OC2=O
+105,Acetic anhydride,CC(=O)OC(C)=O,"Davis, K.R. and Hogg, J.L. Transition-state structures for
+the hydrolysis of cyclic and acyclic carboxylic acid
+anhydrides. J. Org. Chem. 1983, 48, 1041-1047.;
+Bunton, C.A. and Fendler, J.H. The hydrolysis of
+carboxylic anhydrides. V. The acid hydrolysis of acetic
+and trimethylacetic anhydride. J. Org. Chem. 1965,
+30(5), 1365–1371.",,0.00319,,CC(=O)OC(C)=O
+106,Trimethylacetic anhydride,CC(C)(C)C(=O)OC(=O)C(C)(C)C,"Bunton, C.A. and Fendler, J.H. The hydrolysis of
+carboxylic anhydrides. V. The acid hydrolysis of acetic
+and trimethylacetic anhydride. J. Org. Chem. 1965,
+30(5), 1365–1371.",,0.101,,CC(C)(C)C(=O)OC(=O)C(C)(C)C
+107,Succinic anhydride,O=C1CCC(=O)O1,"Bunton, C.A. et al. The hydrolysis of carboxylic
+anhydrides. Part III. Reactions in initially neutral
+solution. J. Chem. Soc. 1963, 2918-2926.",,0.00305,,O=C1CCC(=O)O1
+108,Glutaric anhydride,O=C1CCCC(=O)O1,"Bunton, C.A. et al. The hydrolysis of carboxylic
+anhydrides. Part III. Reactions in initially neutral
+solution. J. Chem. Soc. 1963, 2918-2926.",,0.00298,,O=C1CCCC(=O)O1
+109,Maleic anhydride,O=C1C=CC(=O)O1,"Bunton, C.A. et al. The hydrolysis of carboxylic
+anhydrides. Part III. Reactions in initially neutral
+solution. J. Chem. Soc. 1963, 2918-2926.",,0.000261,,O=C1C=CC(=O)O1
+110,Tetramethylsuccinic anhydride,CC1(C)C(=O)OC(=O)C1(C)C,"Bunton, C.A. et al. The hydrolysis of carboxylic
+anhydrides. Part III. Reactions in initially neutral
+solution. J. Chem. Soc. 1963, 2918-2926.",,0.0356,,CC1(C)C(=O)OC(=O)C1(C)C
+111,Triflumuron,,"EFSA (European Food Safety Authority). 2010.
+Additional Report to the DAR Risk. Risk assessment
+provided by the rapporteur Member State Italy for the
+existing active substance Triflumuron upon
+resubmission in the framework of the accelerated
+procedure in accordance with Commission Regularion
+(EC) No 33/2008. Volume 3 Annex B1, B2, and B5.",,465.0,42.8,O=C(NC(=O)c1ccccc1Cl)Nc1ccc(OC(F)(F)F)cc1
+112,Lufenuron,,"EFSA (European Food Safety Authority). 2007. Draft
+Assessment Report: Initial risk Assessment provided by
+the rapporteur Member State Portugal for the existing
+active substance Lufenuron of the third stage (part B) of
+the review programme referred to in Article 8(2) of
+council Directive 91/313/EEC Volume 3, Annex B, part
+1, B.1-B.5.",,17100.0,7211.5,O=C(NC(=O)c1c(F)cccc1F)Nc1cc(Cl)c(OC(F)(F)C(F)C(F)(F)F)cc1Cl
+113,Flufenoxuron,,"EFSA (European Food Safety Authority), 2008a. Draft
+749.62
+Assessment Report (DAR): Initial risk assessment
+provided by the Member State France for the existing
+active substance Flufenoxuron of the third stage (part
+A) of the review programme referred to in Article 8(2)
+of Council Directive 91/414/EEC, Volume 3, Annex B,
+B.2 and B.8.",749.62,228.0,59.7,O=C(NC(=O)c1c(F)cccc1F)Nc1ccc(Oc2ccc(C(F)(F)F)cc2Cl)cc1F
+114,Teflubenzuron,,"EFSA (European Food Safety Authority). 2007c. Draft
+Assessment Report (DAR): Initial risk assessment
+provided by the Member State the United Kingdom for
+the existing active substance Teflubenzuron of the third
+stage (part B) of the review programme referred to in
+Article 8(2) of Council Directive 91/414/EEC, Volume 3,
+Annex B, part 4, B.8.",,,10.0,O=C(NC(=O)c1c(F)cccc1F)Nc1cc(Cl)c(F)c(Cl)c1F
+115,Novaluron,,"EFSA (European Food Safety Authority), 2008c. Draft
+Assessment Report (DAR): Initial risk assessment
+provided by the Member State the United Kingdom for
+the existing active substance Novaluron of the review
+programme referred to in Article 8(1) of Council
+Directive 91/414/EEC, Volume 3, Annex B, part 4, B.8.",,,101.0,O=C(NC(=O)c1c(F)cccc1F)Nc1ccc(OC(F)(F)C(F)OC(F)(F)F)c(Cl)c1
+116,Methiocarb,,"EFSA (European Food Safety Authority), 2005b. Draft
+Assessment Report (DAR): Initial risk assessment
+provided by the Member State United Kingdom for the
+existing active substance Methiocarb of the second
+stage of the review programme referred to in Article
+8(2) of Council Directive 91/414/EEC, Volume 3, Annex
+B, B.8.",321.0,24.0,0.2,CNC(=O)Oc1cc(C)c(SC)c(C)c1
+117,Methomyl,,"EFSA (European Food Safety Authority), 2004b. Draft
+Assessment Report (DAR): Initial risk assessment
+provided by the Member State United Kingdom for the
+existing active substance Methomyl of the second stage
+of the review programme referred to in Article 8(2) of
+Council Directive 91/414/EEC, Volume 3, Annex B, B.6.;
+IPCS, Enivornmental Health Criteria 178, 1996; EFSA
+(European Food Safety Authority). 2005c. Draft
+Assessment Report (DAR): Initial risk assessment
+provided by the Member State the United Kingdom for
+the existing active substance Thiodicarb of the second
+stage of the review programme referred to in Article
+8(2) of Council Directive 91/414/EEC, Volume 3, Annex
+B, B.8.",,,37.0,CNC(=O)ON=C(C)SC
+118,Carbendazim,,"EFSA (European Food Safety Authority), 2009. Draft
+Assessment Report (DAR): Initial risk assessment
+provided by the Member State Germany for the
+existing active substance Carbendazim of the second
+stage of the review programme referred to in Article
+8(2) of Council Directive 91/414/EEC, Volume 3, Annex
+B, B.8.",,,54.0,COC(=O)Nc1nc2ccccc2[nH]1
+119,Carbetamide,,"EFSA (European Food Safety Authority), 2006. Draft
+Assessment Report (DAR): Initial risk assessment
+provided by the Member State France for the existing
+active substance Carbetamide of the third stage (part
+A) of the review programme referred to in Article 8(2)
+of Council Directive 91/414/EEC, Volume 3, Annex B,
+part 4, B.8.",,,27.1,CCNC(=O)[C@@H](C)OC(=O)Nc1ccccc1
+120,Ethyl dimethylcarbamate,CCOC(=O)N(C)C,"Schwarzenbach, R.; Gschwend, P.; and Imboden, D.
+Environmental Organic Chemistry Second Edition. 2003,
+529.",,,178000.0,CCOC(=O)N(C)C
+121,Ethiofencarb,,"Sanz-Asensio, J. et al. Kinetic study of the degradation
+of ethiofencarb in aqueous solutions. Pestic. Sci. 1997,
+50, 187-194.",,3.86,0.65,CCSCc1ccccc1OC(=O)NC
+122,Bendiocarb,,"Bendiocarb - WHO Specifications and Evaluations for
+Public Health Pesticides, 2002.",46.5,2.0,0.03,CNC(=O)Oc1cccc2c1OC(C)(C)O2
+123,Desmedipham,,"European Commission: Health & Consumer Protection
+Directorate-General, Directorate E - Food Safety: plant
+health, animal health and welfare, international
+questions: E1 - plant health, 2004. Review report for
+the active substance desmedipham finalised in the
+Standing Committee on the Food Chain and Animal
+Health at its meeting on 13 February 2004 in view of
+the inclusion of desmediphan in Annex I of Directive
+91/414/EEC.",45.3,0.55,0.0045,CCOC(=O)Nc1cccc(OC(=O)Nc2ccccc2)c1
+124,Carbaryl,,"EFSA (European Food Safety Authority), 2005a. Draft
+Assessment Report (DAR): Initial risk assessment
+provided by the Member State Spain for the existing
+active substance Carbaryl of the second stage of the
+review programme referred to in Article 8(2) of Council
+Directive 91/414/EEC, Volume 3, Annex B, B.8.; Aly,
+O.M.; El-Dib, M.A. Studies on the persistence of some
+carbamate insecticides in the aquatic environment-I:
+Hydrolysis of sevin, baygon, pyrolan and dimetilan in
+waters. Water Research. 1971, 5, 1191-1205.",11.9,9.11,0.91,CNC(=O)Oc1cccc2ccccc12
+125,Carbofuran,,"EFSA (European Food Safety Authority), 2004a. Draft
+Assessment Report (DAR): Initial risk assessment
+provided by the Member State Belgium for the existing
+active substance Carbofuran of the second stage of the
+review programme referred to in Article 8(2) of Council
+Directive 91/414/EEC, Volume 3, Annex B, part7, B.8.",,24.0,0.36,CNC(=O)Oc1cccc2c1OC(C)(C)C2
+126,Baygon,,"Aly, O.M.; El-Dib, M.A. Studies on the persistence of
+some carbamate insecticides in the aquatic
+environment-I: Hydrolysis of sevin, baygon, pyrolan and
+dimetilan in waters. Water Research. 1971, 5, 11911205.",,,0.7,CNC(=O)Oc1ccccc1OC(C)C
+127,Oxamyl,,"EFSA (European Food Safety Authority), 2004. Draft
+Assessment Report (DAR): Initial risk assessment
+provided by the rapporteur Member State Ireland for
+the existing active substance oxamyl of the second
+stage of the review programme referred to in Article
+8(2) of Council Directive 91/414/EEC, Volume 3, Annex
+B, part 1, B.1-B.7.",,7.93,0.12,CNC(=O)O/N=C(\SC)C(=O)N(C)C
+128,Aldicarb,,"Andrawes, N. and Meeker, R. Hydrolysis of Temik
+Aldicarb Pesticide in Aqueous Buffer Solutions. Project
+No. 111A13, File No. 22263. Unpublished
+study received Dec 6, 1977 under 1016-69; submitted
+by Union Carbide Corp., Arlington, VA",,,0.76,CNC(=O)O/N=C/C(C)(C)SC
+129,Isoproturon,,"Penning, H. et al. Rate Dependent Carbon and Nitrogen
+Kinetic Isotope Fractionation in Hydrolysis of
+Isoproturon. Environ. Sci. Technol. 2008, 42, 7764–
+7771.",,161.0,,CC(C)c1ccc(NC(=O)N(C)C)cc1
+130,Pencycuron,,"EFSA (European Food Safety Authority). 2006b. Draft
+Assessment Report (DAR): Initial risk assessment
+provided by the Member State the Netherlands for the
+existing active substance Pencycuron of the third stage
+(part A) of the review programme referred to in Article
+8(2) of Council Directive 91/414/EEC, Volume 3, Annex
+B, B.8.",37.1,119.0,,O=C(Nc1ccccc1)N(Cc1ccc(Cl)cc1)C1CCCC1
+131,Halosulfuron-methyl,,"EFSA (European Food Safety Authority). 2011. Draft
+Assessment Report (DAR): Initial risk assessment
+provided by the Member State Italy for the new active
+substance Halosulfuron-Methyl of the review
+programme referred to in Article 11(1) of Commission
+Regulation (EC) No 1107/2009, Volume 3, Annex B, B.8.",244.0,22.2,,COC(=O)c1c(Cl)nn(C)c1S(=O)(=O)NC(=O)Nc1nc(OC)cc(OC)n1
+132,Metsulfuron-methyl,,"EFSA (European Food Safety Authority). 2013.
+Renewal Assessment Report (RAR): Draft ReAssessment Report Review provided by the Member
+State Slovenia and the co-rapporteur Member State
+Sweden for the existing active substance Metsulfuronmethyl of Annex I inclusion under Regulation (EC)
+1107/2009, Halosulfuron-methyl Volume 3, Annex B,
+B.8.",50.3,197.0,1150.0,COC(=O)c1ccccc1S(=O)(=O)NC(=O)Nc1nc(C)nc(OC)n1
+133,Triflusulfuron-methyl,,"EFSA (European Food Safety Authority). 2007. Draft
+Assessment Report (DAR): Initial risk assessment
+provided by the Member State France for the existing
+active substance Trisulfuron-Methyl of the third stage
+(part A) of the review programme referred to in Article
+8(2) of Council Directive 91/414/EEC Volume 1.",4.0,32.0,36.0,COC(=O)c1cccc(C)c1S(=O)(=O)NC(=O)Nc1nc(OCC(F)(F)F)nc(N(C)C)n1
+134,Chlorsulfuron,,"EFSA (European Food Safety Authority). 2007b. Draft
+Assessment Report (DAR): Initial risk assessment
+provided by the Member State Greece for the existing
+active substance Chlorsulfuron of the third stage (part
+B) of the review programme referred to in Article 8(2)
+of Council Directive 91/414/EEC, Volume 3, Annex B,
+part 4, B.8.",23.0,,239.0,COc1nc(C)nc(NC(=O)NS(=O)(=O)c2ccccc2Cl)n1
+135,Nicosulfuron,,"EFSA (European Food Safety Authority). 2006c. Draft
+Assessment Report (DAR): Initial risk assessment
+provided by the Member State The United Kingdom for
+the existing active substance Nicosulfuron of the third
+stage (part A) of the review programme referred to in
+Article 8(2) of Council Directive 91/414/EEC, Volume 3,
+Annex B, B.8.",247.0,,162.0,COc1cc(OC)nc(NC(=O)NS(=O)(=O)c2ncccc2C(=O)N(C)C)n1
+136,Thiencarbazone-methyl,,"EFSA (European Food Safety Authority). 2012. Report
+and Proposed Decision of the United Kingdom made to
+the European Commission for Thiencarbazone-Methyl
+under Regulation 1107/2009 (Article 80 transitional
+measures), Volume 3, Annex B, B.8, part A.",489.0,111.0,141.0,COC(=O)c1csc(C)c1S(=O)(=O)NC(=O)n1nc(OC)n(C)c1=O
+137,Azimsulfuron,,"EFSA (European Food Safety Authority). 2009. Draft
+Assessment Report (DAR): Initial risk assessment
+provided by the Member State Sweden and the corapporteur Member State Slovenia for the existing
+active substance Azimsulfuron upon submission in the
+framework of renewal of the inclusion of a first group
+of active substances in Annex I to Council Directive
+91/414/EEC, Volume 3, Annex B.8.",101.0,141.0,147.0,COc1cc(OC)nc(NC(=O)NS(=O)(=O)c2c(-c3nnn(C)n3)cnn2C)n1
+138,Bensulfuron-methyl,,"Ministry of Health, Italy. 2006. Monograph prepared in
+the context of the inclusion of the following active
+substance in Annex I of the Council Directive
+91/414/EEC Bensulfuron Methyl Report and Proposed
+Decision. Volume 1.",60.6,,554.0,COC(=O)c1ccccc1CS(=O)(=O)NC(=O)Nc1nc(OC)cc(OC)n1
+139,Sulfosulfuron,,"EFSA (European Food Safety Authority). 2013.
+Renewal Assessment Report (RAR): Review provided by
+the Member State Sweden and the co-rapporteur
+Member State Ireland for the existing active substance
+Sulfosulfuron Physical and Chemical Properties under
+Regulation (EC) 1107/2009, Suldosulfuron Volume 3,
+Annex B.2",59.2,163.7,261.0,CCS(=O)(=O)c1nc2ccccn2c1S(=O)(=O)NC(=O)Nc1nc(OC)cc(OC)n1
+140,Orthosulfamuron,,"Ministry of Health, Italy. 2011. Orthosulamuron:
+Regulatory Authority's Summary, Evaluation and
+Assessment of the data and Information. Volume 3,
+Annex B.",3.47,26.7,821.0,COc1cc(OC)nc(NC(=O)NS(=O)(=O)Nc2ccccc2C(=O)N(C)C)n1
+141,Foramsulfuron,,"Monograph. Rapporteur Member State: Germany.
+Foramsulfuron Report and Proposed Decision. 2001.
+Volume 1.
+http://www.bvl.bund.de/SharedDocs/Downloads/04_P
+flanzenschutzmittel/02_eu_berichte/ForamsulfuronDAR.pdf?__blob=publicationFile (accessed Jan 2017)",23.5,129.0,15.3,COc1cc(OC)nc(NC(=O)NS(=O)(=O)c2cc(NC=O)ccc2C(=O)N(C)C)n1
+142,Cinosulfuron,,"Negre, M.; Baiocchi, C.; Gennari, M. Cinosulfuron:
+chemical and biological degradability, adsorption and
+dissipation in flooded paddy field sediment. Pest.
+Manag. Sci. 2005, 61, 675–681.",33.7,684.0,,COCCOc1ccccc1S(=O)(=O)NC(=O)Nc1nc(OC)nc(OC)n1
+143,Pyrazosulfuron-ethyl,,"Zheng, W.; Yates, S.; and Papiernik, S. Transformation
+Kinetics and Mechanism of the Sulfonylurea Herbicides
+Pyrazosulfuron ethyl and Halosulfuron methyl in
+aqueous solutions. J. Agric. Food Chem. 2008, 56(16),
+7367-7372.",73.6,41.7,,CCOC(=O)c1cnn(C)c1S(=O)(=O)NC(=O)Nc1nc(OC)cc(OC)n1
+144,Imazosulfuron,,"USEPA Memorandum PC Code 118602. The Drinking
+Water Degradates Identification Memorandum for
+Imazosulfuron",69.5,,32500.0,COc1cc(OC)nc(NC(=O)NS(=O)(=O)c2c(Cl)nc3ccccn23)n1
+145,Amidosulfuron,,"European Chemicals Agency. Committee for Risk
+Assessment. Amidosulfuron.
+https://echa.europa.eu/documents/10162/13579/amid
+osulfuron_bd_adopted_en.pdf (accessed Jan 2017).",52.2,,1190.0,COc1cc(OC)nc(NC(=O)NS(=O)(=O)N(C)S(C)(=O)=O)n1
+146,Ethametsulfuron methyl,,"EFSA (European Food Safety Authority). 2012.
+Regulation 1107/2009: Ethametsulfuron methyl (DPXA7881) to the Report and Proposed Decision of the
+United Kingdom made to the European Commission
+under Regulation 1107/2009 (Article 80 Transitional
+measures) Summary, Scientific Evaluation and
+Assessment. Volume 3 Annex B.",429.0,1640.0,1750.0,CCOc1nc(NC)nc(NC(=O)NS(=O)(=O)c2ccccc2C(=O)OC)n1
+147,Prosulfuron,,"European Commission. 2013. Draft Renewal
+Assessment Report: Prepared according to the
+Commission Regulation (EU) No 1141/2010, Rapporteur
+Member State: France Co-Rapporteur Member State:
+Slovakia. Prosulfuron Rapporteur Member States
+Summary, Evaluation And Assessment of the Date and
+Information. Volume B Annex B.8.; Dinelli, G. et al.
+Hydrolytic Dissipation of Four Sulfonylurea Herbicides.
+J. Agric. Food Chem. 1997, 45(5).",24.1,537.5,,COc1nc(C)nc(NC(=O)NS(=O)(=O)c2ccccc2CCC(F)(F)F)n1
+148,Primisulfuron methyl,,"Dinelli, G. et al. Hydrolytic Dissipation of Four
+Sulfonylurea Herbicides. J. Agric. Food Chem. 1997,
+45(5).; Braschi, L. et al. Degradation of primisulfuron by
+a combination of chemical and microbiological
+processes. J. Agric. Food Chem. 2000, 48(6), 2565-2571.",7.21,1080.0,,COC(=O)c1ccccc1S(=O)(=O)NC(=O)Nc1nc(OC(F)F)cc(OC(F)F)n1
+149,Thifensulfuron methyl,,"Dinelli, G. et al. Hydrolytic Dissipation of Four
+Sulfonylurea Herbicides. J. Agric. Food Chem. 1997,
+45(5).; Braschi, L. et al. Degradation of primisulfuron by
+a combination of chemical and microbiological
+processes. J. Agric. Food Chem. 2000, 48(6), 2565-2571.",4.26,,,COC(=O)c1sccc1S(=O)(=O)NC(=O)Nc1nc(C)nc(OC)n1
+150,Tribenuron,,"EFSA (European Food Safety Authority). 2004. Initial
+risk assessment provided by the rapporteur Member
+State Sweden for the existing active substance
+Tribenuron (based on the variant tribenuron-methyl) of
+the second stage of the review programme referred to
+in Article 8(2) of council Directive 91/414/EEC. Volume
+3, Annex B, B.1-B.6.",,15.9,,COc1nc(C)nc(N(C)C(=O)NS(=O)(=O)c2ccccc2C(=O)O)n1
+151,Spirotetramat,,"EFSA (European Food Safety Authority). 2008. Draft
+Assessment Report (DAR): Joint Review Project/ OECD
+Monograph on Spirotetramat provided by the
+regulatory authorities of Austria, Canada and the
+United States of America, Volume 3, Annex B, B.8.",391.0,7.52,0.325,CCOC(=O)OC1=C(c2cc(C)ccc2C)C(=O)NC12CCC(OC)CC2
+152,Propylene carbonate,CC1COC(=O)O1,"U.S. Environmental Protection Agency, Risk-Based
+Prioritization of
+High Production Volume (HPV) Chemical: proplylene
+carbonate. April 2009",,25.3,0.197,CC1COC(=O)O1
+153,"3-[({[(2-Methyl-2propanyl)peroxy]carbonyl}oxy)meth
+yl]heptane",,"http://apps.echa.europa.eu/registered/data/dossiers/D
+ISS-db9aee68-95f8-1ba3-e044-00144f67d031/AGGR038b5993-3a04-4895-abb7-e83b71d10cb7_DISSdb9aee68-95f8-1ba3-e044-00144f67d031.html#AGGR038b5993-3a04-4895-abb7-e83b71d10cb7 (Accessed
+Jan 2017)",,1.86,42.4,
+154,Coumarin,O=c1ccc2ccccc2o1,"El-Khatib, R.M. et al. Reactivity trends of the base
+hydrolysis of coumarin and thiocoumarin in binary
+aqueous-methanol mixtures at different temperatures.
+Spectrochimica Acta Part A. 2007, 67, 643–648.;
+Garrett, E.R. et al. Kinetics and Mechanisms of
+Lactonization of Coumarinic Acids and Hydrolysis of
+Coumarins I. J. Phar. Sci. 1971, 60(3), 396-405.",,,2.73,O=c1ccc2ccccc2o1
+155,Thiocoumarin,S=c1ccc2ccccc2o1,"El-Khatib, R.M. et al. Reactivity trends of the base
+hydrolysis of coumarin and thiocoumarin in binary
+aqueous-methanol mixtures at different temperatures.
+Spectrochimica Acta Part A. 2007, 67, 643–648.",,,7.21,CN(C)CCCOc1cc(=O)sc2ccccc12
+156,Ethyl coumarin-3-carbaoxylate,,"Ewais, H.A. et al. Kinetics and Mechanism of the Ring
+Opening of 3-carboethoxycoumarin by Sodium
+Hydroxide and Hydrazine. Res. J. Chem. Sci. 2012, 2(12),
+57-64.",,,0.803,
+157,3-Chloro coumarin,O=c1oc2ccccc2cc1Cl,"Garrett, E.R. et al. Kinetics and Mechanisms of
+Lactonization of Coumarinic Acids and Hydrolysis of
+Coumarins I. J. Phar. Sci. 1971, 60(3), 396-405.",,,0.295,
+158,2-Furanone,O=C1CC=CO1,"Bombarelli, R.G.; Calle, E.; Casado, J. Mechanisms of
+Lactone Hydrolysis in Neutral and Alkaline Conditions. J.
+Org. Chem. 2013, 78, 6868-6879.",,,18.7,O=C1CC=CO1
+159,3-(M-nitrophenyl)-3methoxyphthalide,COC1(c2cccc([N+](=O)[O-])c2)OC(=O)c2ccccc21,"Weeks, D.P. and Whitney, D.B. Hydrolysis of 3-(mNitrophenyl)-3-methoxyphthalide. J. Am. Chem. Soc.
+1981, 103, 3555-3558.",30500.0,,1.3,
+160,3-Phenylcoumaran-2-one,O=C1Oc2ccccc2C1c1ccccc1,"Heathcote, D.M. et al. Mechanism of Hydrolysis of
+Coumaran-2-ones. J. Chem. Soc. Perkin Trans. 2. 1998,
+535-540.",,,0.00312,
+161,β-Butyrolactone,CC1CC(=O)O1,"Olson, A.R. and Voule, P.V. The Hydrolysis of BetaButyrolactone. J. Am. Chem. Soc. 1951, 73(6), 2468–
+2471.",,0.172,0.293,
+162,Iprodione,,"Belafdal, O. et al. Mechanism of Hydantoin Ring
+Opening in Iprodione in Aqueous Media. Pestic. Sci.
+1986, 17, 335-342.",,,0.0146,CC(C)NC(=O)N1CC(=O)N(c2cc(Cl)cc(Cl)c2)C1=O
+163,N-phenylnaphthalimide,,"Donskikh, A.I. et al. Hydrolytic Stability of Imides of
+Different Structures. Period. Polytech. Chem. 1989,
+33(1), 61-67.",,,0.936,O=C1c2cccc3cccc(c23)C(=O)N1c1ccccc1
+164,N-(o-carboxyphenyl)-phthalimide,O=C(O)c1ccccc1N1C(=O)c2ccccc2C1=O,"Donskikh, A.I. et al. Hydrolytic Stability of Imides of
+Different Structures. Period. Polytech. Chem. 1989,
+33(1), 61-67.",,0.802,0.287,
+165,Vinclozolin,,"Szeto, S.Y. et al. Kinetics of Hydrolysis of the
+Dicarboximide Fungicide Vinclozolin. J. Agric. Food
+Chem. 1989, 37(2), 523-529.",84.8,0.963,0.0305,C=CC1(C)OC(=O)N(c2cc(Cl)cc(Cl)c2)C1=O
+166,Benzonitrile,N#Cc1ccccc1,"Wiberg, K.B. The Mechanisms of Hydrogen Peroxide
+Reactions. II. A Comparison of the Reactivity of
+Hydroxyl Ion and Hydroperoxide Ion toward
+Benzonitrile. JACS. 1955, 77, 2519-2522; cited by
+Pinnell et al. JACS. 1972, 94, 6104 and Buckingham, D.A.
+et al. JACS. 1973, 95, 5649.",,,108000.0,N#Cc1ccccc1
+167,P-Chlorobenzonitrile,,"Wiberg, K.B. The Mechanisms of Hydrogen Peroxide
+Reactions. II. A Comparison of the Reactivity of
+Hydroxyl Ion and Hydroperoxide Ion toward
+Benzonitrile. JACS. 1955, 77, 2519-2522; Pinnell, D. et
+al. Hydrolysis of Coordinated Nitriles to Carboxamide
+Complexes of Pentaamminecobalt (III). JACS. 1972, 94,
+6104.",,,65400.0,N#Cc1ccc(Cl)cc1
+168,"1,10-Phenanthroline-2-carbonitrile",N#Cc1ccc2ccc3cccnc3c2n1,"Breslow, R.; Fairweather, R.; and Keana, J. Metal
+Catalyzed Hydration of Phenanthroline Nitrile. J. Am.
+Chem. Soc. 1967, 89, 2135.",,,313.0,N#Cc1ccc2ccc3cccnc3c2n1
+169,Acetonitrile,CC#N,"Peskoff, N. and Meyer J. Z. Phys. Chem. 1913, 82, 129,
+cited by Buckingham D.A. et al. J. Am. Chem. Soc. 1973,
+95, 5649, Peskoff, N. and Meyer J. Z. Phys. Chem. 1913,
+82, 129, cited by Ellington et al. 1987; Ellington et al.
+1987.",,,1390000.0,CC#N
+170,Trichloroacetonitrile,N#CC(Cl)(Cl)Cl,"Glezer, V. et al. Hydrolysis of Haloacetonitriles: Linear
+Free Energy Relationship, Kinetics and Products. Wat.
+Res. 1999, 33(8), 1938-1948.",0.883,0.0296,0.00384,N#CC(Cl)(Cl)Cl
+171,Bromo(dichloro)acetonitrile,N#CC(Cl)(Cl)Br,"Glezer, V. et al. Hydrolysis of Haloacetonitriles: Linear
+Free Energy Relationship, Kinetics and Products. Wat.
+Res. 1999, 33(8), 1938-1948.",1.36,0.37,0.0068,N#CC(Cl)(Cl)Br
+172,Dibromochloroacetonitrile,N#CC(Cl)(Br)Br,"Glezer, V. et al. Hydrolysis of Haloacetonitriles: Linear
+Free Energy Relationship, Kinetics and Products. Wat.
+Res. 1999, 33(8), 1938-1948.",1.77,0.493,0.0187,N#CC(Cl)(Br)Br
+173,Tribromoacetonitrile,N#CC(Br)(Br)Br,"Glezer, V. et al. Hydrolysis of Haloacetonitriles: Linear
+Free Energy Relationship, Kinetics and Products. Wat.
+Res. 1999, 33(8), 1938-1948.",2.52,0.277,0.0374,N#CC(Br)(Br)Br
+174,Dichloroacetonitrile,N#CC(Cl)Cl,"Reckhow, D.A. et al. Formation and Degradation of
+Dichloroacetonitrile in Drinking Waters. J. Water
+Supply. 2001, 50, 1-13.",,25.4,0.132,N#CC(Cl)Cl
+175,Flonicamid,,"EFSA (European Food Safety Authority). 2005b. Draft
+Assessment Report (DAR): Initial risk assessment
+provided by the Member State France for the existing
+active substance Flonicamid of the third stage (part A)
+of the review programme referred to in Article 8(2) of
+Council Directive 91/414/EEC, Volume 3, Annex B, B.8.",,,385.0,N#CCNC(=O)c1cnccc1C(F)(F)F
+176,Azetidin-2-one,O=C1CCN1,"Wan, P. et al. The Kinetics and Mechanism of Acid
+Catalysed Hydrolysis of Lactams. Can. J. Chem. 1980,
+58,2423.",,0.00716,,O=C1CCN1
+177,Piperidin-2-one,O=C1CCCCN1,"Wan, P. et al. The Kinetics and Mechanism of Acid
+Catalysed Hydrolysis of Lactams. Can. J. Chem. 1980,
+58,2423.",,2.02,,O=C1CCCCN1
+178,Azepan-2-one,O=C1CCCCCN1,"Wan, P. et al. The Kinetics and Mechanism of Acid
+Catalysed Hydrolysis of Lactams. Can. J. Chem. 1980,
+58,2423.",,6.37,,O=C1CCCCCN1
+179,Pyrrolidin-2-one,O=C1CCCN1,"Wan, P. et al. The Kinetics and Mechanism of Acid
+Catalysed Hydrolysis of Lactams. Can. J. Chem. 1980,
+58,2423.",,8.02,,O=C1CCCN1
+180,Carbosulfan,,"EFSA (European Food Safety Authority). 2004b. Draft
+Assessment Report (DAR): Initial risk assessment
+provided by the Member State Belgium for the existing
+active substance Carbosulfan of the second stage of the
+review programme referred to in Article 8(2) of Council
+Directive 91/414/EEC, Volume 3, Annex B, B.8.; Plese,
+D.M.; Paraiba, L.P. L.C.; Foloni, L.L.; and Pimentel
+Trevizan, L.R. Kinetics of carbosulfan hydrolysis to
+carbofuran and the subsequent degradation of this last
+compound in irrigated rice fields. Chemosphere. 2005,
+60, 149-156.",0.0703,6.42,16.2,CCCCN(CCCC)SN(C)C(=O)Oc1cccc2c1OC(C)(C)C2
+181,Folpet,,"EFSA (European Food Safety Authority). 2005b. Draft
+Assessment Report (DAR): Initial risk assessment
+provided by the Member State Italy for the existing
+active substance Folpet of the second stage of the
+review programme referred to in Article 8(2) of Council
+Directive 91/414/EEC, Volume 3, Annex B, B.8.; Wolfe,
+N.L. et al. Captan Hydrolysis. J. Agric. Food Chem. 1976,
+24, 1041-1045.",2.24,0.041,0.00115,O=C1c2ccccc2C(=O)N1SC(Cl)(Cl)Cl
+182,Captan,,"EFSA (European Food Safety Authority). 2005a. Draft
+Assessment Report (DAR): Initial risk assessment
+provided by the Member State Italy for the existing
+active substance Captan of the second stage of the
+review programme referred to in Article 8(2) of Council
+Directive 91/414/EEC, Volume 3, Annex B, B.8.; Wolfe,
+N.L. et al. Captan Hydrolysis. J. Agric. Food Chem. 1976,
+24, 1041-1045.",0.336,0.494,0.0027,O=C1C2CC=CCC2C(=O)N1SC(Cl)(Cl)Cl
+183,Captafol,,"Wolfe, N.L. et al. Captan Hydrolysis. J. Agric. Food
+Chem. 1976, 24, 1041-1045.",,,0.00298,O=C1C2CC=CCC2C(=O)N1SC(Cl)(Cl)C(Cl)Cl
+184,Cyclohexylthiophthalimide,O=C1NC(=S)c2cccc(C3CCCCC3)c21,"Hazardous Substances Data Bank. Bethesda (MD):
+National Library of Medicine (US); [Last Revision Date
+20050502; cited 2017 Jan]. N(Cyclohexylthio)Phthalimide; Hazardous Substances
+Databank Number: 7259;. Available
+from: http://toxnet.nlm.nih.gov/cgibin/sis/htmlgen?HSDB",,0.971,,
+185,N-tert-butylbenzothiazole-2sulphenamide,CC(C)(C)NSc1nc2ccccc2s1,"SIDS Initial Assessment Report for SIAM 16. 2003.
+Sponsor country: Japan under ICCA initiative for the
+chemical N-tert-butylbenzothiazole-2-sulphenamide.
+http://www.inchem.org/documents/sids/sids/NTERBU
+TYLBENZ.pdf (Accessed 1/18/2016)",0.713,0.0752,0.894,
+186,Benfuracarb,,"EFSA (European Food Safety Authority). 2004a. Draft
+Assessment Report (DAR): Initial risk assessment
+provided by the Member State Belgium for the existing
+active substance Benfuracarb of the second stage of
+the review programme referred to in Article 8(2) of
+Council Directive 91/414/EEC, Volume 3, Annex B, B.8.",,16.2,210.0,CCOC(=O)CCN(SN(C)C(=O)Oc1cccc2c1OC(C)(C)C2)C(C)C
+187,Thiodicarb,,"EFSA (European Food Safety Authority). 2005c. Draft
+Assessment Report (DAR): Initial risk assessment
+provided by the Member State the United Kingdom for
+the existing active substance Thiodicarb of the second
+stage of the review programme referred to in Article
+8(2) of Council Directive 91/414/EEC, Volume 3, Annex
+B, B.8.; FAO (Food and Agriculture Organization).
+Thiodicarb.
+http://www.fao.org/fileadmin/templates/agphome/do
+cuments/Pests_Pesticides/JMPR/Evaluation01/16_Thio
+dicarb.pdf",73.6,31.4,0.37,CS/C(C)=N/OC(=O)N(C)SN(C)C(=O)O/N=C(\C)SC
