@@ -22,7 +22,7 @@ def parse_args():
     Argument parser so this can be run from the command line
     """
     parser = argparse.ArgumentParser(description='Run ESNUEL predictions from the command line')
-    parser.add_argument('-s', '--smiles', default='CNC(=O)Oc1cccc2c1OC(C)(C)C2',
+    parser.add_argument('-s', '--smi', default='CNC(=O)Oc1cccc2c1OC(C)(C)C2',
                         help='SMILES input for ESNUEL predictions')
     return parser.parse_args()
 
