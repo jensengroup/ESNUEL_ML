@@ -4,7 +4,7 @@
 
 ---
 
-Estimating Nucleophilicity and Electrophilicity From Atom-Based Machine Learning Predictions of Methyl Affinities
+Estimating Nucleophilicity and Electrophilicity With Atom-Based Machine Learning Predictions of Methyl Affinities
 
 
 ## Installation
