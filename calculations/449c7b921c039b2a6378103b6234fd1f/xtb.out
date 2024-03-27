@@ -7,7 +7,7 @@
      |                    University of Bonn                     |     
       -----------------------------------------------------------      
 
-   * xtb version 6.6.0 (conda-forge) compiled by 'runner@Mac-1676020903829.local' on 2023-02-10
+   * xtb version 6.7.0 (08769fc) compiled by 'albert@albert-system' on 2024-03-04
 
    xtb is free software: you can redistribute it and/or modify it under
    the terms of the GNU Lesser General Public License as published by
@@ -41,6 +41,10 @@
    * S. Ehlert, M. Stahn, S. Spicher, S. Grimme, J. Chem. Theory Comput.,
      2021, 17, 4250-4261. DOI: 10.1021/acs.jctc.1c00471
    
+   for ddCOSMO and CPCM-X implicit solvation:
+   * M. Stahn, S. Ehlert, S. Grimme, J. Phys. Chem. A,
+     2023, XX, XXXX-XXXX. DOI: 10.1021/acs.jpca.3c04382
+   
    for DFT-D4:
    * E. Caldeweyher, C. Bannwarth and S. Grimme, J. Chem. Phys., 2017,
      147, 034112. DOI: 10.1063/1.4993215
@@ -68,29 +72,42 @@
    * S. Spicher and S. Grimme, J. Chem. Theory Comput., 2021, 17, 1701-1714
      DOI: 10.1021/acs.jctc.0c01306
    
+   for ONIOM refer to:
+   * C. Plett, A. Katbashev, S. Ehlert, S. Grimme, M. Bursch,
+     Phys. Chem. Chem. Phys., 2023, 25, 17860-17868. DOI: 10.1039/D3CP02178E
+   
+   for DIPRO refer to:
+   * J. Kohn, N. Gildemeister, S. Grimme, D. Fazzi, A. Hansen,
+     J. Chem. Phys., 2023, just accepted.
+   
+   for PTB refer to:
+   * S. Grimme, M. Mueller, A. Hansen, J. Chem. Phys., 2023, 158, 124111.
+     DOI: 10.1063/5.0137838
+   
    with help from (in alphabetical order)
    P. Atkinson, C. Bannwarth, F. Bohle, G. Brandenburg, E. Caldeweyher
    M. Checinski, S. Dohm, S. Ehlert, S. Ehrlich, I. Gerasimov, C. Hölzer
-   A. Katbashev, J. Koopman, C. Lavigne, S. Lehtola, F. März, M. Müller,
+   A. Katbashev, J. Kohn, J. Koopman, C. Lavigne, S. Lehtola, F. März, M. Müller,
    F. Musil, H. Neugebauer, J. Pisarek, C. Plett, P. Pracht, F. Pultar,
    J. Seibert, P. Shushkov, S. Spicher, M. Stahn, M. Steiner, T. Strunk,
    J. Stückrath, T. Rose, and J. Unsleber
    
- * started run on 2024/03/27 at 10:53:58.365     
-
-           -------------------------------------------------
-          |                Calculation Setup                |
-           -------------------------------------------------
-
-          program call               : /Users/nicolairee/opt/miniforge3/envs/alfabet/bin/xtb --gfn 1 /Users/nicolairee/KU_data/esnuelML/ESNUEL_ML/calculations/449c7b921c039b2a6378103b6234fd1f/449c7b921c039b2a6378103b6234fd1f.xyz --lmo --chrg 0 --uhf 0
-          coordinate file            : /Users/nicolairee/KU_data/esnuelML/ESNUEL_ML/calculations/449c7b921c039b2a6378103b6234fd1f/449c7b921c039b2a6378103b6234fd1f.xyz
-          omp threads                :                     1
-
+ * started run on 2024/03/27 at 11:56:19.384     
    ID    Z sym.   atoms
     1    6 C      1, 3, 6-11, 13-16
     2    7 N      2
     3    8 O      4, 5, 12
     4    1 H      17-31
+
+           -------------------------------------------------
+          |                Calculation Setup                |
+           -------------------------------------------------
+
+          program call               : /lustre/hpc/kemi/ree/postdoc/git/ESNUEL_ML/dep/xtb-dist/bin/xtb --gfn 1 /lustre/hpc/kemi/ree/postdoc/git/ESNUEL_ML/calculations/449c7b921c039b2a6378103b6234fd1f/449c7b921c039b2a6378103b6234fd1f.xyz --lmo --chrg 0 --uhf 0
+          hostname                   : fend01.cluster
+          coordinate file            : /lustre/hpc/kemi/ree/postdoc/git/ESNUEL_ML/calculations/449c7b921c039b2a6378103b6234fd1f/449c7b921c039b2a6378103b6234fd1f.xyz
+          omp threads                :                     1
+
 
            -------------------------------------------------
           |                 G F N 1 - x T B                 |
@@ -137,6 +154,8 @@
           :  -> SCF convergence          0.1000000E-05 Eh   :
           :  -> wf. convergence          0.2000000E-04 e    :
           :  Broyden damping             0.4000000          :
+          :  net charge                          0          :
+          :  unpaired electrons                  0          :
           ...................................................
 
  iter      E             dE          RMSdq      gap      omega  full diag
@@ -147,10 +166,10 @@
    5    -51.3776255 -0.975764E-03  0.516E-02    4.08       1.0  T
    6    -51.3777047 -0.792065E-04  0.104E-02    4.09       1.7  T
    7    -51.3777076 -0.287050E-05  0.219E-03    4.09       8.2  T
-   8    -51.3777077 -0.930890E-07  0.787E-04    4.09      22.8  T
-   9    -51.3777077 -0.687064E-08  0.216E-04    4.09      83.3  T
-  10    -51.3777077 -0.398593E-09  0.528E-05    4.09     340.3  T
-  11    -51.3777077 -0.407283E-10  0.247E-05    4.09     727.6  T
+   8    -51.3777077 -0.930889E-07  0.787E-04    4.09      22.8  T
+   9    -51.3777077 -0.687057E-08  0.216E-04    4.09      83.3  T
+  10    -51.3777077 -0.398558E-09  0.528E-05    4.09     340.3  T
+  11    -51.3777077 -0.408633E-10  0.247E-05    4.09     727.6  T
 
    *** convergence criteria satisfied after 11 iterations ***
 
@@ -175,15 +194,15 @@
       -------------------------------------------------------------
                   HL-Gap            0.1502464 Eh            4.0884 eV
              Fermi-level           -0.3356703 Eh           -9.1341 eV
-
+ 
  localization/xTB-IFF output generation
  averaging CT terms over            1  occ. levels
  averaging CT terms over            2  virt. levels
  dipole moment from electron density (au)
      X       Y       Z   
   -0.2478   0.6129  -0.8404  total (Debye):    2.718
-cpu  time for init local    0.01 s
-wall time for init local    0.01 s
+cpu  time for init local    0.02 s
+wall time for init local    0.02 s
  doing rotations ...
  initialization of trafo matrix to unity
 
@@ -191,65 +210,65 @@ wall time for init local    0.01 s
  doing transformations ...
  lmo centers(Z=2) and atoms on file <lmocent.coord>
  LMO Fii/eV  ncent    charge center   contributions...
-    1 sigma -19.31   1.85   4.21375  -0.78104  -0.56558    5O :  0.65    3C :  0.35
-    2 sigma -19.21   1.83   3.08069  -1.60621  -1.38926    5O :  0.65    6C :  0.35
-    3 sigma -18.85   1.86  -0.71167   0.43714  -1.03295   12O :  0.63   11C :  0.37
-    4 sigma -18.52   1.82  -1.85682   1.61851  -0.76922   12O :  0.65   13C :  0.35
-    5 sigma -17.58   1.89   7.12859   1.52792  -0.57319    2N :  0.61   20H :  0.39
-    6 sigma -17.51   1.89   7.37775   1.83869   1.35211    2N :  0.61    1C :  0.40
-    7 pi    -17.04   1.81   3.92265  -0.18500   2.15962    4O :  0.66    3C :  0.34
-    8 pi    -17.03   1.82   4.49509  -0.95366   2.23381    4O :  0.66    3C :  0.34
-    9 sigma -16.72   1.83   5.91782   0.96372   0.61380    2N :  0.64    3C :  0.36
-   10 LP    -16.68   1.09   3.79951   0.19800  -2.38439    5O :  0.96
-   11 LP    -16.50   1.10   5.18708  -2.07844  -1.67547    5O :  0.95
-   12 sigma -16.27   2.00   0.57706  -1.68679  -1.19831   11C :  0.51    6C :  0.49
-   13 LP    -16.20   1.06   0.23313   2.06702   0.08992   12O :  0.97
-   14 LP    -15.97   1.10  -0.63560   1.63330  -2.55536   12O :  0.95
-   15 sigma -15.87   2.00  -2.94101  -3.69558  -1.04433   10C :  0.51    9C :  0.49
-   16 sigma -15.68   1.99   0.53318  -5.69206  -1.39240    7C :  0.51    8C :  0.50
-   17 sigma -15.56   1.98  -3.96469  -1.53636  -0.91230   16C :  0.50   10C :  0.50
-   18 sigma -15.41   1.97   9.27979   3.01597   2.13401    1C :  0.51   17H :  0.49
-   19 sigma -15.38   1.96  -4.24891   0.65552  -0.60173   16C :  0.51   13C :  0.50
-   20 sigma -15.34   2.01  -5.82032  -0.86654   0.13859   16C :  0.51   30H :  0.48
-   21 sigma -15.34   2.02  -5.58619  -0.54947  -2.03824   16C :  0.51   31H :  0.48
-   22 sigma -15.32   1.96  -3.96130   2.96356  -1.16189   13C :  0.51   14C :  0.50
-   23 sigma -15.30   1.96   7.25572   3.75376   2.72877    1C :  0.52   18H :  0.49
-   24 sigma -15.26   1.95  -3.51230   2.24625   1.04522   13C :  0.51   15C :  0.50
-   25 sigma -15.23   1.96   8.06296   1.89833   3.61949    1C :  0.53   19H :  0.48
-   26 sigma -15.20   2.00  -4.10180  -5.69288  -1.06686    9C :  0.51   23H :  0.49
-   27 sigma -15.17   1.96  -5.75759   4.31634  -1.69942   14C :  0.51   24H :  0.50
-   28 LP    -15.13   1.04   2.51890  -1.74553   3.01074    4O :  0.98
-   29 sigma -15.13   2.00   2.82531  -5.71142  -1.56319    7C :  0.52   21H :  0.48
-   30 sigma -15.09   2.00  -0.64032  -7.69581  -1.39893    8C :  0.51   22H :  0.49
-   31 LP    -15.02   1.07   4.77270   0.03984   4.14080    4O :  0.97
-   32 sigma -15.00   1.99  -4.82554   2.89955   2.83828   15C :  0.51   29H :  0.49
-   33 sigma -14.97   1.98  -4.33220   3.73854  -3.29294   14C :  0.52   26H :  0.49
-   34 sigma -14.95   1.98  -3.71685   5.16764  -1.76143   14C :  0.52   25H :  0.49
-   35 sigma -14.84   1.98  -3.04926   1.64135   3.21461   15C :  0.52   27H :  0.48
-   36 sigma -14.83   1.98  -2.78390   3.72823   2.65057   15C :  0.52   28H :  0.48
-   37 delpi -14.49   2.34   1.40199  -3.64402  -1.84590    6C :  0.47    7C :  0.45
-   38 delpi -14.48   2.42  -1.60539  -2.08476  -0.59679   10C :  0.47   11C :  0.43
-   39 pi    -14.45   1.44   6.79876   0.54974   0.59782    2N :  0.81    3C :  0.18
-   40 delpi -14.45   2.34   1.47092  -3.70960  -0.85899    6C :  0.47    7C :  0.45
-   41 delpi -14.37   2.46  -1.67355  -2.08323  -1.54814   10C :  0.47   11C :  0.43
-   42 delpi -14.28   2.32  -1.57143  -5.50441  -0.73908    8C :  0.47    9C :  0.46
-   43 delpi -14.28   2.33  -1.62856  -5.45600  -1.71644    8C :  0.47    9C :  0.45
+    1 sigma -19.31   1.85   4.21375  -0.78104  -0.56558    5  O :  0.65    3  C :  0.35
+    2 sigma -19.21   1.83   3.08069  -1.60621  -1.38926    5  O :  0.65    6  C :  0.35
+    3 sigma -18.85   1.86  -0.71167   0.43714  -1.03295   12  O :  0.63   11  C :  0.37
+    4 sigma -18.52   1.82  -1.85682   1.61851  -0.76922   12  O :  0.65   13  C :  0.35
+    5 sigma -17.58   1.89   7.12859   1.52792  -0.57319    2  N :  0.61   20  H :  0.39
+    6 sigma -17.51   1.89   7.37775   1.83869   1.35211    2  N :  0.61    1  C :  0.40
+    7 pi    -17.04   1.81   3.92265  -0.18500   2.15962    4  O :  0.66    3  C :  0.34
+    8 pi    -17.03   1.82   4.49509  -0.95366   2.23381    4  O :  0.66    3  C :  0.34
+    9 sigma -16.72   1.83   5.91782   0.96372   0.61380    2  N :  0.64    3  C :  0.36
+   10 LP    -16.68   1.09   3.79951   0.19800  -2.38439    5  O :  0.96
+   11 LP    -16.50   1.10   5.18708  -2.07844  -1.67547    5  O :  0.95
+   12 sigma -16.27   2.00   0.57706  -1.68679  -1.19831   11  C :  0.51    6  C :  0.49
+   13 LP    -16.20   1.06   0.23313   2.06702   0.08992   12  O :  0.97
+   14 LP    -15.97   1.10  -0.63560   1.63330  -2.55536   12  O :  0.95
+   15 sigma -15.87   2.00  -2.94101  -3.69558  -1.04433   10  C :  0.51    9  C :  0.49
+   16 sigma -15.68   1.99   0.53318  -5.69206  -1.39240    7  C :  0.51    8  C :  0.50
+   17 sigma -15.56   1.98  -3.96469  -1.53636  -0.91230   16  C :  0.50   10  C :  0.50
+   18 sigma -15.41   1.97   9.27979   3.01597   2.13401    1  C :  0.51   17  H :  0.49
+   19 sigma -15.38   1.96  -4.24891   0.65552  -0.60173   16  C :  0.51   13  C :  0.50
+   20 sigma -15.34   2.01  -5.82032  -0.86654   0.13859   16  C :  0.51   30  H :  0.48
+   21 sigma -15.34   2.02  -5.58619  -0.54947  -2.03824   16  C :  0.51   31  H :  0.48
+   22 sigma -15.32   1.96  -3.96130   2.96356  -1.16189   13  C :  0.51   14  C :  0.50
+   23 sigma -15.30   1.96   7.25572   3.75376   2.72877    1  C :  0.52   18  H :  0.49
+   24 sigma -15.26   1.95  -3.51230   2.24625   1.04522   13  C :  0.51   15  C :  0.50
+   25 sigma -15.23   1.96   8.06296   1.89833   3.61949    1  C :  0.53   19  H :  0.48
+   26 sigma -15.20   2.00  -4.10180  -5.69288  -1.06686    9  C :  0.51   23  H :  0.49
+   27 sigma -15.17   1.96  -5.75759   4.31634  -1.69942   14  C :  0.51   24  H :  0.50
+   28 LP    -15.13   1.04   2.51890  -1.74553   3.01074    4  O :  0.98
+   29 sigma -15.13   2.00   2.82531  -5.71142  -1.56319    7  C :  0.52   21  H :  0.48
+   30 sigma -15.09   2.00  -0.64032  -7.69581  -1.39893    8  C :  0.51   22  H :  0.49
+   31 LP    -15.02   1.07   4.77270   0.03984   4.14080    4  O :  0.97
+   32 sigma -15.00   1.99  -4.82554   2.89955   2.83828   15  C :  0.51   29  H :  0.49
+   33 sigma -14.97   1.98  -4.33220   3.73854  -3.29294   14  C :  0.52   26  H :  0.49
+   34 sigma -14.95   1.98  -3.71685   5.16764  -1.76143   14  C :  0.52   25  H :  0.49
+   35 sigma -14.84   1.98  -3.04926   1.64135   3.21461   15  C :  0.52   27  H :  0.48
+   36 sigma -14.83   1.98  -2.78390   3.72823   2.65057   15  C :  0.52   28  H :  0.48
+   37 delpi -14.49   2.34   1.40199  -3.64402  -1.84590    6  C :  0.47    7  C :  0.45
+   38 delpi -14.48   2.42  -1.60539  -2.08476  -0.59679   10  C :  0.47   11  C :  0.43
+   39 pi    -14.45   1.44   6.79876   0.54974   0.59782    2  N :  0.81    3  C :  0.18
+   40 delpi -14.45   2.34   1.47092  -3.70960  -0.85899    6  C :  0.47    7  C :  0.45
+   41 delpi -14.37   2.46  -1.67355  -2.08323  -1.54814   10  C :  0.47   11  C :  0.43
+   42 delpi -14.28   2.32  -1.57143  -5.50441  -0.73908    8  C :  0.47    9  C :  0.46
+   43 delpi -14.28   2.33  -1.62856  -5.45600  -1.71644    8  C :  0.47    9  C :  0.45
  starting deloc pi regularization ...
- thr    2.2000000000000002      # pi deloc LMO           6
+ thr    2.20000000000000      # pi deloc LMO           6
  files:
  coordprot.0/xtbscreen.xyz/xtblmoinfo/lmocent.coord
  with protonation site input, xtbdock and
  LMO center info written
+ 
 
-
- SCC (total)                   0 d,  0 h,  0 min,  0.046 sec
- SCC setup                      ...        0 min,  0.001 sec (  2.698%)
- Dispersion                     ...        0 min,  0.000 sec (  1.052%)
- classical contributions        ...        0 min,  0.000 sec (  0.599%)
- integral evaluation            ...        0 min,  0.005 sec ( 11.714%)
- iterations                     ...        0 min,  0.013 sec ( 27.529%)
- molecular gradient             ...        0 min,  0.014 sec ( 31.213%)
- printout                       ...        0 min,  0.012 sec ( 25.183%)
+ SCC (total)                   0 d,  0 h,  0 min,  0.206 sec
+ SCC setup                      ...        0 min,  0.001 sec (  0.297%)
+ Dispersion                     ...        0 min,  0.000 sec (  0.160%)
+ classical contributions        ...        0 min,  0.000 sec (  0.061%)
+ integral evaluation            ...        0 min,  0.026 sec ( 12.513%)
+ iterations                     ...        0 min,  0.048 sec ( 23.487%)
+ molecular gradient             ...        0 min,  0.051 sec ( 24.689%)
+ printout                       ...        0 min,  0.080 sec ( 38.769%)
 
          :::::::::::::::::::::::::::::::::::::::::::::::::::::
          ::                     SUMMARY                     ::
@@ -264,7 +283,7 @@ wall time for init local    0.01 s
          :: dispersion energy         -0.016965468517 Eh    ::
          :: halogen bond corr.         0.000000000000 Eh    ::
          :: add. restraining           0.000000000000 Eh    ::
-         :: total charge              -0.000000000000 e     ::
+         :: total charge               0.000000000000 e     ::
          :::::::::::::::::::::::::::::::::::::::::::::::::::::
 
            -------------------------------------------------
@@ -402,14 +421,14 @@ Writing topology from bond orders to xtbtopo.mol
            -------------------------------------------------
 
 ------------------------------------------------------------------------
- * finished run on 2024/03/27 at 10:53:58.433     
+ * finished run on 2024/03/27 at 11:56:19.661     
 ------------------------------------------------------------------------
  total:
- * wall-time:     0 d,  0 h,  0 min,  0.068 sec
- *  cpu-time:     0 d,  0 h,  0 min,  0.051 sec
- * ratio c/w:     0.761 speedup
+ * wall-time:     0 d,  0 h,  0 min,  0.275 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.185 sec
+ * ratio c/w:     0.674 speedup
  SCF:
- * wall-time:     0 d,  0 h,  0 min,  0.047 sec
- *  cpu-time:     0 d,  0 h,  0 min,  0.041 sec
- * ratio c/w:     0.880 speedup
+ * wall-time:     0 d,  0 h,  0 min,  0.206 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.146 sec
+ * ratio c/w:     0.710 speedup
 
