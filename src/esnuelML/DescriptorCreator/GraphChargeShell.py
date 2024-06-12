@@ -28,11 +28,15 @@ from rdkit.Chem import AllChem
 from DescriptorCreator.NodeDescGenerator import NodeDescGenerator
 
 # xTB path and calc setup
-path = os.getcwd()
-XTBHOME = os.path.join(path, 'dep/xtb-dist')
-XTBPATH = os.path.join(path, 'dep/xtb-dist/share/xtb')
-MANPATH = os.path.join(path, 'dep/xtb-dist/share/man')
-LD_LIBRARY_PATH = os.path.join(path, 'dep/xtb-dist/lib')
+base_dir = os.path.dirname(os.path.realpath(__file__)).replace('/src/esnuelML/DescriptorCreator', '')
+# XTBHOME = os.path.join(base_dir, 'dep/xtb-6.5.1')
+# XTBPATH = os.path.join(base_dir, 'dep/xtb-6.5.1/share/xtb')
+# MANPATH = os.path.join(base_dir, 'dep/xtb-6.5.1/share/man')
+# LD_LIBRARY_PATH = os.path.join(base_dir, 'dep/xtb-6.5.1/lib')
+XTBHOME = '/Users/nicolairee/opt/miniforge3/envs/alfabet'
+XTBPATH = os.path.join(XTBHOME, 'share/xtb')
+MANPATH = os.path.join(XTBHOME, 'share/man')
+LD_LIBRARY_PATH = os.path.join(XTBHOME, 'lib')
 
 OMP_NUM_THREADS = '1'
 MKL_NUM_THREADS = '1'
@@ -70,8 +74,7 @@ class GraphChargeShell():
         Make a pathname for the SQM calculations (GFN1-xTB)
         :return: SQMroot
         """
-        cwd = os.getcwd()
-        SQMroot = cwd + '/' + 'calculations'
+        SQMroot = base_dir + '/desc_calcs'
         print(f'SQM folder is: \n{SQMroot}')
         return SQMroot
 
@@ -136,7 +139,7 @@ class GraphChargeShell():
         self.rdkit_mol = new_mol
 
         # Make seperate directory for mol
-        self.mol_calc_path = f'{self.SQMroot}/{name}'
+        self.mol_calc_path = f'{self.SQMroot}/{name.split("_")[0]}'
         if not os.path.exists(self.mol_calc_path):
             os.mkdir(self.mol_calc_path)
         
@@ -169,7 +172,7 @@ class GraphChargeShell():
         
         # Save calc output
         if save_output:
-            with open(f'{self.mol_calc_path}/xtb.out', 'w') as f:
+            with open(f'{self.mol_calc_path}/{name}_xtb.out', 'w') as f:
                 f.write(output)
 
         # Get CM5 charges from output and append CM5 charges to RDKit mol object 
