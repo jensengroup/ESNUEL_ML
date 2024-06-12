@@ -11,7 +11,7 @@ Estimating Nucleophilicity and Electrophilicity With Atom-Based Machine Learning
 
 For the installation, we recommend using `conda` to get all the necessary dependencies:
 
-    conda env create -f environment.yml && conda activate esnuelML
+    conda env create -f etc/environment.yml && conda activate esnuelML
 
 
 Then download the binaries of xtb version 6.7.0:
@@ -23,6 +23,6 @@ Then download the binaries of xtb version 6.7.0:
 
 An example of usage via CLI command:
 
-    python run_ester_predictions.py --smi 'CCOC(=O)CCN(SN(C)C(=O)Oc1cccc2c1OC(C)(C)C2)C(C)C'
+    python src/esnuelML/predictor.py --smi 'CCOC(=O)CCN(SN(C)C(=O)Oc1cccc2c1OC(C)(C)C2)C(C)C'
 
-The xtb calculations are now saved in a "./calculations" folder.
+The xtb calculations are now saved in a "./desc_calcs" folder.
