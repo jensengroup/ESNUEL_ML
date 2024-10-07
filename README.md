@@ -41,3 +41,17 @@ An example of usage via CLI command:
     python src/esnuelML/predictor.py --smi 'CCOC(=O)CCN(SN(C)C(=O)Oc1cccc2c1OC(C)(C)C2)C(C)C'
 
 The xtb calculations are now saved in a "./desc_calcs" folder.
+
+
+## Citation 
+
+Our work is available as a preprint on [ChemRxiv](https://doi.org/), where more information is available.
+```
+@article{ree2024esnuelML,
+  title = {Atom-Based Machine Learning for Estimating Nucleophilicity and Electrophilicity with Applications to Retrosynthesis and Chemical Stability},
+  url = {http://dx.doi.org/},
+  DOI = {},
+  author = {Nicolai Ree and Andreas H. G\"{o}ller and Jan H. Jensen},
+  year = {2024}
+}
+```
