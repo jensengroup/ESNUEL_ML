@@ -28,20 +28,23 @@ import hashlib
 import argparse
 import numpy as np
 import pandas as pd
+from joblib import load
 
 from rdkit import Chem
 import lightgbm as lgb
 
-base_dir = os.path.dirname(os.path.realpath(__file__)).replace('/src/esnuelML', '')
-
 from DescriptorCreator.GraphChargeShell import GraphChargeShell
+desc_generator = GraphChargeShell()
 
 from locate_atom_sites import find_nucleophilic_sites, find_electrophilic_sites
 from molecule_drawer import generate_structure, generate_output_tables, html_output
-import molecule_formats as molfmt
+
+base_dir = os.path.dirname(os.path.realpath(__file__)).replace('/src/esnuelML', '')
 ### END ###
 
+
 ### LOAD MCA and MAA MODELS ###
+# Property prediction models:
 nuc_model_path = os.path.join(base_dir, 'src/esnuelML/models/nuc/SMI2GCS_3_cm5_model.txt.gz')
 with gzip.open(nuc_model_path, mode="rt") as file:
     nuc_model_str = file.read()
@@ -51,6 +54,10 @@ elec_model_path = os.path.join(base_dir, 'src/esnuelML/models/elec/SMI2GCS_3_cm5
 with gzip.open(elec_model_path, mode="rt") as file:
     elec_model_str = file.read()
 elec_model = lgb.Booster(model_str=elec_model_str, silent=True)
+
+# Error estimation models:
+nuc_RFmodel = load(os.path.join(base_dir, 'src/esnuelML/models/nuc/RF_SMI2GCS_3_cm5.joblib'))
+elec_RFmodel = load(os.path.join(base_dir, 'src/esnuelML/models/elec/RF_SMI2GCS_3_cm5.joblib'))
 ### END ###
 
 
@@ -64,9 +71,16 @@ def parse_args():
     return parser.parse_args()
 
 
+def estimate_uncertainty(RFmodel, descs):
+    tree_predictions = []
+    for tree in RFmodel.estimators_:
+        tree_predictions.append(tree.predict(descs))
+    return np.std(tree_predictions, axis=0)
+
+
 def run_MAA_and_MCA_predictions(name, smiles):
 
-    smiles = Chem.MolToSmiles(Chem.MolFromSmiles(smiles))
+    #smiles = Chem.MolToSmiles(Chem.MolFromSmiles(smiles)) # SMILES should already be canonicalized
     
     # Calculate CM5 atomic charges
     cm5_list = desc_generator.calc_CM5_charges(smiles, name=name, optimize=False, save_output=True)
@@ -102,8 +116,10 @@ def run_MAA_and_MCA_predictions(name, smiles):
 
     if len(elec_descriptor_vectors):
         elec_preds = elec_model.predict(elec_descriptor_vectors, num_iteration=elec_model.best_iteration)
+        elec_errors = 0.6028123658016926 * estimate_uncertainty(elec_RFmodel, elec_descriptor_vectors) + 4.044501905413345 # If errors are above cutoff of 30.0 kJ/mol, we recommend running QM calculations
     else:
         elec_preds = []
+        elec_errors = []
 
     # Predict MCA values
     nuc_descriptor_vectors = []
@@ -117,10 +133,12 @@ def run_MAA_and_MCA_predictions(name, smiles):
 
     if len(nuc_descriptor_vectors):
         nuc_preds = nuc_model.predict(nuc_descriptor_vectors, num_iteration=nuc_model.best_iteration)
+        nuc_errors = 0.6140308723543682 * estimate_uncertainty(nuc_RFmodel, nuc_descriptor_vectors) + 4.3372205727670305 # If errors are above cutoff of 25.0 kJ/mol, we recommend running QM calculations
     else:
         nuc_preds = []
+        nuc_errors = []
     
-    return elec_sites, elec_names, elec_preds, nuc_sites, nuc_names, nuc_preds
+    return elec_sites, elec_names, elec_preds, elec_errors, nuc_sites, nuc_names, nuc_preds, nuc_errors
 
 
 def pred_MAA_and_MCA(reac_smis: str, name: str):
@@ -133,33 +151,37 @@ def pred_MAA_and_MCA(reac_smis: str, name: str):
     elec_sites_list = []
     elec_names_list = []
     MAA_values = []
+    MAA_estimated_error = []
     elec_sdfpath_structures = []
 
     nuc_sites_list = []
     nuc_names_list = []
     MCA_values = []
+    MCA_estimated_error = []
     nuc_sdfpath_structures = []
 
     for i, smiles in enumerate(reac_smis):
 
-        elec_sites, elec_names, elec_preds, nuc_sites, nuc_names, nuc_preds = run_MAA_and_MCA_predictions(f'{name}_{i}', smiles)
+        elec_sites, elec_names, elec_preds, elec_errors, nuc_sites, nuc_names, nuc_preds, nuc_errors = run_MAA_and_MCA_predictions(f'{name}_{i}', smiles)
 
         elec_sites_list.append(elec_sites)
         elec_names_list.append(elec_names)
         MAA_values.append(elec_preds)
+        MAA_estimated_error.append(elec_errors)
         elec_sdfpath_structures.append([f'{name}_{i}.sdf']*len(elec_sites))
         
         nuc_sites_list.append(nuc_sites)
         nuc_names_list.append(nuc_names)
         MCA_values.append(nuc_preds)
+        MCA_estimated_error.append(nuc_errors)
         nuc_sdfpath_structures.append([f'{name}_{i}.sdf']*len(nuc_sites))
     
     ### Draw the output ###
     result_svg = generate_structure(reac_mols, elec_sites_list, MAA_values, nuc_sites_list, MCA_values, molsPerRow=2)
 
-    df_elec = generate_output_tables(reac_mols, elec_names_list, MAA_values, elec_sites_list, elec_sdfpath_structures, MAA_or_MCA='MAA', QM_or_ML='ML')
+    df_elec = generate_output_tables(reac_mols, elec_names_list, MAA_values, MAA_estimated_error, elec_sites_list, elec_sdfpath_structures, MAA_or_MCA='MAA', QM_or_ML='ML')
     df_elec = df_elec.rename(columns={'Error Log (Reactant, Product)': 'Reactant'})
-    df_nuc = generate_output_tables(reac_mols, nuc_names_list, MCA_values, nuc_sites_list, nuc_sdfpath_structures, MAA_or_MCA='MCA', QM_or_ML='ML')
+    df_nuc = generate_output_tables(reac_mols, nuc_names_list, MCA_values, MCA_estimated_error, nuc_sites_list, nuc_sdfpath_structures, MAA_or_MCA='MCA', QM_or_ML='ML')
     df_nuc = df_nuc.rename(columns={'Error Log (Reactant, Product)': 'Reactant'})
 
     result_output = html_output('.'.join(reac_smis), result_svg, df_elec, df_nuc)
@@ -175,8 +197,6 @@ def pred_MAA_and_MCA(reac_smis: str, name: str):
 if __name__ == "__main__":
 
     args = parse_args() # Obtain CLI
-
-    desc_generator = GraphChargeShell()
 
     smiles = Chem.MolToSmiles(Chem.MolFromSmiles(args.smi), isomericSmiles=True) # canonicalize input smiles
     name = hashlib.md5(smiles.encode()).hexdigest() # SMILES MUST BE CANONICALIZED

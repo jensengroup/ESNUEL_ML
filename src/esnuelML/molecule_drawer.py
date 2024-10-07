@@ -146,10 +146,11 @@ def generate_structure(rdkit_mols, elec_sites_list, MAA_values_list, nuc_sites_l
     return svg
 
 
-def generate_output_tables(rdkit_mols, names_list, values_list, sites_list, calc_logs, MAA_or_MCA='MAA', QM_or_ML='QM'):
+def generate_output_tables(rdkit_mols, names_list, values_list, error_list, sites_list, calc_logs, MAA_or_MCA='MAA', QM_or_ML='QM'):
     
     names_list_new = []
     values_list_new = []
+    error_list_new = []
     sites_list_new = []
     calc_logs_new = []
 
@@ -167,6 +168,7 @@ def generate_output_tables(rdkit_mols, names_list, values_list, sites_list, calc
                         sites_list_new.append(f'{site}')
                     
                     values_list_new.append(val)
+                    error_list_new.append(error_list[i][idx])
                     
                     if QM_or_ML == 'ML':
                         calc_logs_new.append(f'<a href="{calc_logs[i][idx]}">Show</a>')
@@ -176,7 +178,7 @@ def generate_output_tables(rdkit_mols, names_list, values_list, sites_list, calc
 
                     names_list_new.append(names_list[i][idx].replace('_', ' ').capitalize())
     
-    dict_table = {'Atom ID': sites_list_new, f'{MAA_or_MCA} Value [kJ/mol]': values_list_new, 'Error Log (Reactant, Product)': calc_logs_new, 'Type': names_list_new}
+    dict_table = {'Atom ID': sites_list_new, f'{MAA_or_MCA} Value [kJ/mol]': values_list_new, 'Est. Error [kJ/mol]': error_list_new, 'Error Log (Reactant, Product)': calc_logs_new, 'Type': names_list_new}
     df_table = pd.DataFrame(dict_table).sort_values(by=[f'{MAA_or_MCA} Value [kJ/mol]'], ascending=False)
     
     return df_table
