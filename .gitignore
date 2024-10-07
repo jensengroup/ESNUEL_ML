@@ -6,7 +6,6 @@ data/uncertaintyEstimates
 data/.DS_Store
 src/esnuelML/DescriptorCreator/__pycache__/
 src/esnuelML/__pycache__/
-src/esnuelML/models/nuc
-src/esnuelML/models/elec
+src/esnuelML/models_tmp
 desc_calcs/
 dep/
