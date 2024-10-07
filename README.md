@@ -21,7 +21,7 @@ Download and unpack models:
 
     wget -O models.tar.xz https://sid.erda.dk/share_redirect/Ear6g6wl0G; tar xf models.tar.xz; mv models src/esnuelML/.
 
-Download and unpack datasets:
+Download and unpack datasets (OBS! Not required for running the models):
 
     wget -O data.tar.xz https://sid.erda.dk/share_redirect/c7LF5NaYvH; tar xf data.tar.xz
 
