@@ -10,6 +10,8 @@ Atom-based machine learning for estimating nucleophilicity and electrophilicity 
 [TRY IT HERE: https://www.esnuel.org](https://www.esnuel.org)
 
 GitHub repository for our QM-based workflow is: https://github.com/jensengroup/esnuel
+GitHub repository for our atom-based descriptor: https://github.com/NicolaiRee/smi2gcs
+
 
 ## Installation
 
@@ -41,6 +43,12 @@ An example of usage via CLI command:
     python src/esnuelML/predictor.py --smi 'CCOC(=O)CCN(SN(C)C(=O)Oc1cccc2c1OC(C)(C)C2)C(C)C'
 
 The xtb calculations are now saved in a "./desc_calcs" folder.
+
+
+## Raw QM calculation results
+All the raw input and output files from the QM calculations can be downloaded here (compressed size: 13 GB, unpacked size: 355 GB):
+
+    wget -O calculations.tar.xz https://sid.erda.dk/share_redirect/???????; tar xf calculations.tar.xz
 
 
 ## Citation 
