@@ -43,7 +43,7 @@ An example of usage via CLI command:
 
     python src/esnuelML/predictor.py --smi 'CCOC(=O)CCN(SN(C)C(=O)Oc1cccc2c1OC(C)(C)C2)C(C)C'
 
-The xtb calculations are now saved in a "./desc_calcs" folder with a visual output of the prediction results saved in a .html file.
+The results are saved in a subfolder under "./desc_calcs" with a visual output of the predictions (saved in a .html file).
 
 
 ## Raw QM calculation results
