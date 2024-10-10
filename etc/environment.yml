@@ -6,7 +6,7 @@ dependencies:
   - python=3.9
   - rdkit
   - numpy
-  - scikit-learn
+  - scikit-learn=1.0.1
   - scipy
   - seaborn
   - pandas
