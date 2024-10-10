@@ -1,4 +1,4 @@
-name: esnuelML
+name: esnuel
 channels:
   - conda-forge
   - defaults
