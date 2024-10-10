@@ -43,10 +43,11 @@ An example of usage via CLI command:
 
     python src/esnuelML/predictor.py --smi 'CCOC(=O)CCN(SN(C)C(=O)Oc1cccc2c1OC(C)(C)C2)C(C)C'
 
-The xtb calculations are now saved in a "./desc_calcs" folder.
+The xtb calculations are now saved in a "./desc_calcs" folder with a visual output of the prediction results saved in a .html file.
 
 
 ## Raw QM calculation results
+
 All the raw input and output files from the QM calculations can be downloaded here (compressed size: 29 GB, unpacked size: 355 GB):
 
     wget -O calculations.tar.xz https://sid.erda.dk/share_redirect/hp3ttQcTgs; tar xf calculations.tar.xz
