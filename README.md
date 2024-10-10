@@ -18,7 +18,7 @@ GitHub repository for our atom-based descriptor: https://github.com/NicolaiRee/s
 
 Clone this Github repository:
 
-    git clone https://github.com/NicolaiRee/ESNUEL_ML.git
+    git clone https://github.com/jensengroup/ESNUEL_ML.git
 
 Download and unpack models:
 
@@ -47,9 +47,9 @@ The xtb calculations are now saved in a "./desc_calcs" folder.
 
 
 ## Raw QM calculation results
-All the raw input and output files from the QM calculations can be downloaded here (compressed size: 13 GB, unpacked size: 355 GB):
+All the raw input and output files from the QM calculations can be downloaded here (compressed size: 29 GB, unpacked size: 355 GB):
 
-    wget -O calculations.tar.xz https://sid.erda.dk/share_redirect/???????; tar xf calculations.tar.xz
+    wget -O calculations.tar.xz https://sid.erda.dk/share_redirect/hp3ttQcTgs; tar xf calculations.tar.xz
 
 
 ## Citation 
@@ -60,7 +60,7 @@ Our work is available as a preprint on [ChemRxiv](https://doi.org/), where more 
   title = {Atom-Based Machine Learning for Estimating Nucleophilicity and Electrophilicity with Applications to Retrosynthesis and Chemical Stability},
   url = {http://dx.doi.org/},
   DOI = {},
-  author = {Nicolai Ree and Andreas H. G\"{o}ller and Jan H. Jensen},
+  author = {Nicolai Ree and Jan M. Wollschl\"{a}ger and Andreas H. G\"{o}ller and Jan H. Jensen},
   year = {2024}
 }
 ```
