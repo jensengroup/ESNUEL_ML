@@ -29,14 +29,14 @@ from DescriptorCreator.NodeDescGenerator import NodeDescGenerator
 
 # xTB path and calc setup
 base_dir = os.path.dirname(os.path.realpath(__file__)).replace('/src/esnuelML/DescriptorCreator', '')
-# XTBHOME = os.path.join(base_dir, 'dep/xtb-dist')
-# XTBPATH = os.path.join(base_dir, 'dep/xtb-dist/share/xtb')
-# MANPATH = os.path.join(base_dir, 'dep/xtb-dist/share/man')
-# LD_LIBRARY_PATH = os.path.join(base_dir, 'dep/xtb-dist/lib')
-XTBHOME = '/Users/nicolairee/opt/miniforge3/envs/alfabet'
-XTBPATH = os.path.join(XTBHOME, 'share/xtb')
-MANPATH = os.path.join(XTBHOME, 'share/man')
-LD_LIBRARY_PATH = os.path.join(XTBHOME, 'lib')
+XTBHOME = os.path.join(base_dir, 'dep/xtb-dist')
+XTBPATH = os.path.join(base_dir, 'dep/xtb-dist/share/xtb')
+MANPATH = os.path.join(base_dir, 'dep/xtb-dist/share/man')
+LD_LIBRARY_PATH = os.path.join(base_dir, 'dep/xtb-dist/lib')
+# XTBHOME = '/Users/nicolairee/opt/miniforge3/envs/alfabet'
+# XTBPATH = os.path.join(XTBHOME, 'share/xtb')
+# MANPATH = os.path.join(XTBHOME, 'share/man')
+# LD_LIBRARY_PATH = os.path.join(XTBHOME, 'lib')
 
 OMP_NUM_THREADS = '1'
 MKL_NUM_THREADS = '1'
