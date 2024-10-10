@@ -66,7 +66,7 @@ def parse_args():
     Argument parser so this can be run from the command line
     """
     parser = argparse.ArgumentParser(description='Run esnuelML predictions from the command line')
-    parser.add_argument('-s', '--smi', default='C[C+:20](C)CC(C)(C)C1=C(C=CC(=C1)Br)[OH:10]',
+    parser.add_argument('-s', '--smi', default='CCOC(=O)c1cc(Cl)n2nc(-c3ccc(Br)cc3F)cc2n1',
                         help='SMILES input for esnuelML predictions')
     return parser.parse_args()
 
@@ -205,5 +205,5 @@ if __name__ == "__main__":
 
     print('Name:', name)
     print('SMILES:', smiles)
-    print(df_elec.drop(columns=['Reactant']))
-    print(df_nuc.drop(columns=['Reactant']))
+    print(df_elec.drop(columns=['Reactant']).to_string(index=False))
+    print(df_nuc.drop(columns=['Reactant']).to_string(index=False))
