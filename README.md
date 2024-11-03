@@ -55,13 +55,14 @@ All the raw input and output files from the QM calculations can be downloaded he
 
 ## Citation 
 
-Our work is available as a preprint on [ChemRxiv](https://doi.org/), where more information is available.
+Our work is available as a preprint on [ChemRxiv](https://doi.org/10.26434/chemrxiv-2024-2p7ch), where more information is available.
 ```
 @article{ree2024esnuelML,
   title = {Atom-Based Machine Learning for Estimating Nucleophilicity and Electrophilicity with Applications to Retrosynthesis and Chemical Stability},
-  url = {http://dx.doi.org/},
-  DOI = {},
-  author = {Nicolai Ree and Jan M. Wollschl\"{a}ger and Andreas H. G\"{o}ller and Jan H. Jensen},
-  year = {2024}
+  url = {http://dx.doi.org/10.26434/chemrxiv-2024-2p7ch},
+  DOI = {10.26434/chemrxiv-2024-2p7ch},
+  author = {Ree,  Nicolai and Wollschl\"{a}ger,  Jan M. and G\"{o}ller,  Andreas H. and Jensen,  Jan H.},
+  year = {2024},
+  month = oct 
 }
 ```
