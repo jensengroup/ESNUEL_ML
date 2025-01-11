@@ -54,7 +54,7 @@ All the raw input and output files from the QM calculations can be downloaded he
 
 
 ## Model training
-The scripts (.py files) to train/retrain the underlying models are located in the following directory: scripts/MLtrain/
+The scripts (.py files) to train/retrain the ML models are located in the following directory: scripts/MLtrain/
 
     - elec_SMI2GCS_3_cm5: The lightGBM model used to predict the MAA values, referred to as the MAA ML model in the paper.
     - elec_RF_SMI2GCS_3_cm5: The random forest model used for uncertainty quantification of the MAA ML model predictions.
