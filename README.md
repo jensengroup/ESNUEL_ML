@@ -74,7 +74,7 @@ You are now ready to run the training scripts e.g.:
     python LGBMRegressor_optuna.py
 
 Once the training is completed the lightGBM models are saved as "final_best_model.txt" and the radom forest models are saved as "final_best_model.joblib" in the respective folders.
-We then recommend to compress the lightGBM models using the provided bash script "do_gzip.sh" by simply runing the script:
+We then recommend to compress the lightGBM models using the provided bash script "do_gzip.sh" by simply running the script:
 
     bash do_gzip.sh
 
