@@ -97,7 +97,7 @@ Our work is open access on [Chemical Science](https://doi.org/10.1039/D4SC07297A
   DOI = {10.1039/d4sc07297a},
   journal = {Chemical Science},
   publisher = {Royal Society of Chemistry (RSC)},
-  author = {Ree,  Nicolai and Wollschl\"{a}ger,  Jan M. and G\"{o}ller,  Andreas H. and Jensen,  Jan H.},
+  author = {Ree, Nicolai and Wollschl\"{a}ger, Jan M. and G\"{o}ller, Andreas H. and Jensen, Jan H.},
   year = {2025}
 }
 ```
